@@ -1,0 +1,4 @@
+case_name,schedule_type,nominal_period_steps,number_of_events,first_event_step,last_event_step,minimum_gap_steps,mean_gap_steps,standard_deviation_gap_steps,response_horizon_steps,overlap_present,calendar_seed
+dense_periodic,dense periodic,21,23,21,483,21,21.0,0.0,12,False,not applicable
+sparse_periodic,sparse periodic,42,12,21,483,42,42.0,0.0,12,False,not applicable
+sparse_irregular,sparse irregular,42,12,21,483,21,42.0,16.834488409215172,12,False,20260726

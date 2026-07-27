@@ -1,0 +1,77 @@
+metric,source_table,display_label,metric_family,favourable_direction,units,value_type
+gc_level_partial_r_squared,stage4_seed_case_analysis,Forward GC level partial R-squared,forward predictive GC,higher,partial R-squared,numeric
+gc_change_partial_r_squared,stage4_seed_case_analysis,Forward GC change partial R-squared,forward predictive GC,higher,partial R-squared,numeric
+conditional_event_history_partial_r_squared,stage4_seed_case_analysis,Conditional event-history partial R-squared,forward predictive GC,higher,partial R-squared,numeric
+reverse_gc_level_partial_R_squared,stage4_seed_case_analysis,Reverse GC level partial R-squared,reverse predictive GC,descriptive,partial R-squared,numeric
+reverse_gc_change_partial_R_squared,stage4_seed_case_analysis,Reverse GC change partial R-squared,reverse predictive GC,descriptive,partial R-squared,numeric
+tdmi_level_at_plus_1,stage4_seed_case_analysis,Level TDMI at +1,TDMI dependence,descriptive,nats,numeric
+tdmi_level_direct_peak,stage4_seed_case_analysis,Level TDMI direct peak,TDMI dependence,descriptive,nats,numeric
+tdmi_level_direct_peak_lag,stage4_seed_case_analysis,Level TDMI direct peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_level_outside_direct_positive_peak,stage4_seed_case_analysis,Level TDMI outside-direct peak,TDMI dependence,descriptive,nats,numeric
+tdmi_level_outside_direct_positive_peak_lag,stage4_seed_case_analysis,Level TDMI outside-direct peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_level_outside_direct_to_direct_ratio,stage4_seed_case_analysis,Level TDMI outside/direct ratio,TDMI dependence,descriptive,nats,numeric
+tdmi_level_negative_peak,stage4_seed_case_analysis,Level TDMI negative peak,TDMI dependence,descriptive,nats,numeric
+tdmi_level_negative_peak_lag,stage4_seed_case_analysis,Level TDMI negative peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_level_global_nonzero_peak,stage4_seed_case_analysis,Level TDMI global nonzero peak,TDMI dependence,descriptive,nats,numeric
+tdmi_level_global_nonzero_peak_lag,stage4_seed_case_analysis,Level TDMI global nonzero peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_level_at_plus_21,stage4_seed_case_analysis,Level TDMI at +21,TDMI dependence,descriptive,nats,numeric
+tdmi_level_at_plus_42,stage4_seed_case_analysis,Level TDMI at +42,TDMI dependence,descriptive,nats,numeric
+tdmi_change_at_plus_1,stage4_seed_case_analysis,Change TDMI at +1,TDMI dependence,descriptive,nats,numeric
+tdmi_change_direct_peak,stage4_seed_case_analysis,Change TDMI direct peak,TDMI dependence,descriptive,nats,numeric
+tdmi_change_direct_peak_lag,stage4_seed_case_analysis,Change TDMI direct peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_change_outside_direct_positive_peak,stage4_seed_case_analysis,Change TDMI outside-direct peak,TDMI dependence,descriptive,nats,numeric
+tdmi_change_outside_direct_positive_peak_lag,stage4_seed_case_analysis,Change TDMI outside-direct peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_change_outside_direct_to_direct_ratio,stage4_seed_case_analysis,Change TDMI outside/direct ratio,TDMI dependence,descriptive,nats,numeric
+tdmi_change_negative_peak,stage4_seed_case_analysis,Change TDMI negative peak,TDMI dependence,descriptive,nats,numeric
+tdmi_change_negative_peak_lag,stage4_seed_case_analysis,Change TDMI negative peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_change_global_nonzero_peak,stage4_seed_case_analysis,Change TDMI global nonzero peak,TDMI dependence,descriptive,nats,numeric
+tdmi_change_global_nonzero_peak_lag,stage4_seed_case_analysis,Change TDMI global nonzero peak lag,TDMI dependence,descriptive,nats,numeric
+tdmi_change_at_plus_21,stage4_seed_case_analysis,Change TDMI at +21,TDMI dependence,descriptive,nats,numeric
+tdmi_change_at_plus_42,stage4_seed_case_analysis,Change TDMI at +42,TDMI dependence,descriptive,nats,numeric
+A_error,stage4_seed_case_analysis,Parametric amplitude error,profile recovery,descriptive,event-weight multiplier units,numeric
+lambda_error,stage4_seed_case_analysis,Parametric decay-rate error,profile recovery,descriptive,per year,numeric
+A_absolute_error,stage4_seed_case_analysis,Absolute parametric amplitude error,profile recovery,lower,event-weight multiplier units,numeric
+parametric_profile_MAE,stage4_seed_case_analysis,Parametric profile MAE,profile recovery,lower,event-weight multiplier units,numeric
+parametric_profile_RMSE,stage4_seed_case_analysis,Parametric profile RMSE,profile recovery,lower,event-weight multiplier units,numeric
+nonparametric_profile_MAE,stage4_seed_case_analysis,Non-parametric profile MAE,profile recovery,lower,event-weight multiplier units,numeric
+nonparametric_profile_RMSE,stage4_seed_case_analysis,Non-parametric profile RMSE,profile recovery,lower,event-weight multiplier units,numeric
+lambda_absolute_error,stage4_seed_case_analysis,Absolute parametric decay-rate error,profile recovery,lower,per year,numeric
+active_sigma_unaware_MAE,stage4_seed_case_analysis,Unaware active sigma MAE,active forecasting,lower,sigma units,numeric
+active_sigma_parametric_MAE,stage4_seed_case_analysis,Parametric active sigma MAE,active forecasting,lower,sigma units,numeric
+active_sigma_nonparametric_MAE,stage4_seed_case_analysis,Non-parametric active sigma MAE,active forecasting,lower,sigma units,numeric
+active_sigma_unaware_RMSE,stage4_seed_case_analysis,Unaware active sigma RMSE,active forecasting,lower,sigma units,numeric
+active_sigma_parametric_RMSE,stage4_seed_case_analysis,Parametric active sigma RMSE,active forecasting,lower,sigma units,numeric
+active_sigma_nonparametric_RMSE,stage4_seed_case_analysis,Non-parametric active sigma RMSE,active forecasting,lower,sigma units,numeric
+active_sigma_parametric_MAE_gain_pct,stage4_seed_case_analysis,Parametric active sigma MAE gain,active forecasting,higher,percentage points,numeric
+active_sigma_nonparametric_MAE_gain_pct,stage4_seed_case_analysis,Non-parametric active sigma MAE gain,active forecasting,higher,percentage points,numeric
+active_sigma_parametric_RMSE_gain_pct,stage4_seed_case_analysis,Parametric active sigma RMSE gain,active forecasting,higher,percentage points,numeric
+active_sigma_nonparametric_RMSE_gain_pct,stage4_seed_case_analysis,Non-parametric active sigma RMSE gain,active forecasting,higher,percentage points,numeric
+active_95_state_unaware_coverage,stage4_seed_case_analysis,Unaware active 95% coverage,interval calibration,descriptive,probability,numeric
+active_95_state_unaware_width,stage4_seed_case_analysis,Unaware active 95% width,interval calibration,descriptive,probability,numeric
+unaware_coverage_bias,stage4_seed_case_analysis,Unaware active coverage bias,interval calibration,descriptive,probability,numeric
+unaware_absolute_coverage_error,stage4_seed_case_analysis,Unaware absolute coverage error,interval calibration,lower,probability,numeric
+active_95_state_unaware_interval_score,stage4_seed_case_analysis,Unaware active 95% interval score,interval calibration,lower,powered-state or sigma units,numeric
+active_95_state_parametric_coverage,stage4_seed_case_analysis,Parametric active 95% coverage,interval calibration,descriptive,probability,numeric
+active_95_state_parametric_width,stage4_seed_case_analysis,Parametric active 95% width,interval calibration,descriptive,probability,numeric
+parametric_coverage_bias,stage4_seed_case_analysis,Parametric active coverage bias,interval calibration,descriptive,probability,numeric
+parametric_absolute_coverage_error,stage4_seed_case_analysis,Parametric absolute coverage error,interval calibration,lower,probability,numeric
+active_95_state_parametric_interval_score,stage4_seed_case_analysis,Parametric active 95% interval score,interval calibration,lower,powered-state or sigma units,numeric
+active_95_state_nonparametric_coverage,stage4_seed_case_analysis,Nonparametric active 95% coverage,interval calibration,descriptive,probability,numeric
+active_95_state_nonparametric_width,stage4_seed_case_analysis,Nonparametric active 95% width,interval calibration,descriptive,probability,numeric
+nonparametric_coverage_bias,stage4_seed_case_analysis,Nonparametric active coverage bias,interval calibration,descriptive,probability,numeric
+nonparametric_absolute_coverage_error,stage4_seed_case_analysis,Nonparametric absolute coverage error,interval calibration,lower,probability,numeric
+active_95_state_nonparametric_interval_score,stage4_seed_case_analysis,Nonparametric active 95% interval score,interval calibration,lower,powered-state or sigma units,numeric
+gc_level_detected_5pct,stage4_seed_case_analysis,Forward GC level detection at 5%,binary diagnostic,descriptive,indicator,binary
+gc_change_detected_5pct,stage4_seed_case_analysis,Forward GC change detection at 5%,binary diagnostic,descriptive,indicator,binary
+reverse_gc_level_detected_5pct,stage4_seed_case_analysis,Reverse GC level rejection at 5%,binary diagnostic,descriptive,indicator,binary
+reverse_gc_change_detected_5pct,stage4_seed_case_analysis,Reverse GC change rejection at 5%,binary diagnostic,descriptive,indicator,binary
+reverse_gc_level_degenerate,stage4_seed_case_analysis,Reverse GC level degeneracy,binary diagnostic,descriptive,indicator,binary
+reverse_gc_change_degenerate,stage4_seed_case_analysis,Reverse GC change degeneracy,binary diagnostic,descriptive,indicator,binary
+tdmi_level_exact_plus_1_recovered,stage4_seed_case_analysis,Level TDMI exact +1 recovery,binary diagnostic,descriptive,indicator,binary
+tdmi_change_exact_plus_1_recovered,stage4_seed_case_analysis,Change TDMI exact +1 recovery,binary diagnostic,descriptive,indicator,binary
+tdmi_level_direct_peak_at_window_boundary,stage4_seed_case_analysis,Level TDMI direct-window boundary peak,binary diagnostic,descriptive,indicator,binary
+tdmi_change_direct_peak_at_window_boundary,stage4_seed_case_analysis,Change TDMI direct-window boundary peak,binary diagnostic,descriptive,indicator,binary
+tdmi_level_global_peak_at_scan_boundary,stage4_seed_case_analysis,Level TDMI global scan-boundary peak,binary diagnostic,descriptive,indicator,binary
+tdmi_change_global_peak_at_scan_boundary,stage4_seed_case_analysis,Change TDMI global scan-boundary peak,binary diagnostic,descriptive,indicator,binary
+parametric_positive_MAE_gain,stage4_seed_case_analysis,Parametric positive active MAE gain,binary diagnostic,descriptive,indicator,binary
+nonparametric_positive_MAE_gain,stage4_seed_case_analysis,Non-parametric positive active MAE gain,binary diagnostic,descriptive,indicator,binary

@@ -1,0 +1,9 @@
+case_name,n,state_interpretation,calibration_interpretation,metric,count,successes,rate,ci_95_lower,ci_95_upper
+n1_reference,1,volatility,frozen n=1 volatility-state calibration,gc_forward_change_detected_5pct,50,50,1.0,0.9286524008666414,1.0
+n1_reference,1,volatility,frozen n=1 volatility-state calibration,tdmi_change_peak_at_plus_1,50,23,0.46,0.3296965219222435,0.5960112860084253
+n1_reference,1,volatility,frozen n=1 volatility-state calibration,parametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0
+n1_reference,1,volatility,frozen n=1 volatility-state calibration,nonparametric_positive_MAE_gain,50,49,0.98,0.8950455641036219,0.9964607407283539
+n2_benchmark,2,variance,dedicated n=2 variance-state calibration,gc_forward_change_detected_5pct,50,50,1.0,0.9286524008666414,1.0
+n2_benchmark,2,variance,dedicated n=2 variance-state calibration,tdmi_change_peak_at_plus_1,50,47,0.94,0.8378290831116182,0.979385029651026
+n2_benchmark,2,variance,dedicated n=2 variance-state calibration,parametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0
+n2_benchmark,2,variance,dedicated n=2 variance-state calibration,nonparametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0

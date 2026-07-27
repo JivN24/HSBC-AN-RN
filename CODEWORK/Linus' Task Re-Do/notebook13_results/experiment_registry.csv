@@ -1,0 +1,14 @@
+notebook,purpose,main model case,methods used,number of seeds or replications,primary output,evidence level,main limitation
+00,Model specification and core simulator,Dense periodic n=1 foundation,simulation and timing,deterministic specification,model and timing checks,Level 1,synthetic and simple calendar
+01,Dense-periodic n=1 dependence exploration,Dense periodic n=1,GC and TDMI,one seed,lagged dependence curves,Level 1,periodic aliasing
+02,Predictive direction and structure diagnostics,Dense periodic n=1,GC and conditional structure,one seed,directional diagnostic tables,Level 1,"predictive, not interventionist"
+03,Event-weight and profile estimation,Dense periodic n=1,parametric and non-parametric profiles,one seed,profile recovery,Level 1,single simulated path
+04,Event-aware volatility forecasting,Dense periodic n=1,unaware and event-aware forecasts,one seed,forecast paths,Level 1,single simulated path
+05,Forecast evaluation and calibration,Dense periodic n=1,"MAE, RMSE and intervals",one seed,accuracy and interval metrics,Level 1,calibration is sample-specific
+06,Reusable workflow helpers,frozen reusable workflow,simulation through evaluation,helper validation suite,leakage-safe pipeline,Level 1,synthetic scope
+07,Nonlinear functional robustness,state-dependent background function,workflow diagnostic,one seed,focused robustness output,Level 3,not repeated-seed evidence
+08,Scalar-parameter and replication robustness,n=1 parameter cases,"profiles, GC, TDMI, forecasts",50 seeds per case,repeated summaries and contrasts,Level 2,studied parameter grid
+09,Full n=2 analysis,locally scale-matched n=2,"profiles, diagnostics, forecasts",50 seeds,n=2 repeated summaries,Level 2,scale-aware comparison required
+10,Event-frequency and schedule robustness,"dense, sparse periodic, sparse irregular","GC, TDMI, profiles, forecasts",50 paired seeds,schedule contrasts,Level 2,three studied schedules
+11,Dependence and causality comparison,four non-null cases plus no effect,"correlation, GC, TDMI, validated TE",50 seeds,detection and lag-recovery rates,Level 2,predictive diagnostics
+12,Log-state additive decomposition,dense periodic n=1,matched-feature log target,one seed,decomposition comparison,Level 3,frozen linear raw predictor basis

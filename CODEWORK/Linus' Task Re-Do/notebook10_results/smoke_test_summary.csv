@@ -1,0 +1,4 @@
+case_name,simulation_success,number_of_events,active_transition_count,train_event_count,test_event_count,minimum_sigma,maximum_sigma,minimum_F,minimum_omega,maximum_omega,minimum_event_gap,mean_event_gap,all_finite,all_positive,common_epsilon,common_eta,all_ages_present,no_overlap,event_indicator_matches,active_mask_matches,inactive_weights_equal_one
+dense_periodic,True,23,299,16,7,0.19409966507334572,0.26388819707848465,0.19409966507334572,1.0018887560283756,1.01,21,21.0,True,True,True,True,True,True,True,True,True
+sparse_periodic,True,12,156,8,4,0.19409966507334572,0.23172682374103135,0.19409966507334572,1.0018887560283756,1.01,42,42.0,True,True,True,True,True,True,True,True,True
+sparse_irregular,True,12,156,8,4,0.19409966507334572,0.23214683048816673,0.19409966507334572,1.0018887560283756,1.01,21,42.0,True,True,True,True,True,True,True,True,True

@@ -1,0 +1,10 @@
+result_area,dense_periodic,sparse_periodic,sparse_irregular,main_paired_result,interpretation
+Forward GC change detection,100.00%,98.00%,100.00%,"Sparse periodic - dense: -2.00 pp [-6.02, 2.02]; sparse irregular - sparse periodic: 2.00 pp [-2.02, 6.02]",Predictive detection remains high across schedules.
+Reverse GC change rejection,74.00%,12.00%,10.00%,"Sparse periodic - dense: -62.00 pp [-77.07, -46.93]; sparse irregular - sparse periodic: -2.00 pp [-14.17, 10.17]",Dense periodic repetition has stronger reverse predictive rejection.
+Change-TDMI exact +1 recovery,44.00%,34.00%,42.00%,"Sparse periodic - dense: -10.00 pp [-29.26, 9.26]; sparse irregular - sparse periodic: 8.00 pp [-11.76, 27.76]",Exact-lag recovery is imperfect under every schedule.
+Parametric profile RMSE,0.000341,0.000548,0.000577,"Sparse periodic - dense: 0.000207 [0.000115, 0.000299]; sparse irregular - sparse periodic: 0.000029 [-0.000084, 0.000142]",Lower values indicate better profile recovery.
+Non-parametric profile RMSE,0.000966,0.001450,0.001487,"Sparse periodic - dense: 0.000484 [0.000416, 0.000551]; sparse irregular - sparse periodic: 0.000038 [-0.000093, 0.000169]",Lower values indicate better profile recovery.
+Parametric active MAE gain,25.19 pp,19.00 pp,18.94 pp,"Sparse periodic - dense: -5.39 pp [-7.34, -3.43]; sparse irregular - sparse periodic: -0.70 pp [-2.67, 1.28]",Positive gains favour event-aware forecasting.
+Non-parametric active MAE gain,22.13 pp,15.72 pp,13.42 pp,"Sparse periodic - dense: -6.55 pp [-8.69, -4.40]; sparse irregular - sparse periodic: -1.99 pp [-4.22, 0.24]",Positive gains favour event-aware forecasting.
+Parametric active 95% coverage,0.947,0.950,0.939,"Sparse periodic - dense: 0.0030 [-0.0032, 0.0091]; sparse irregular - sparse periodic: -0.0108 [-0.0195, -0.0020]",Coverage is evaluated jointly with interval score.
+Parametric interval score,0.004231,0.004232,0.004313,"Sparse periodic - dense: 0.000001 [-0.000101, 0.000102]; sparse irregular - sparse periodic: 0.000081 [-0.000050, 0.000213]",Lower interval scores are better conditional on calibration.

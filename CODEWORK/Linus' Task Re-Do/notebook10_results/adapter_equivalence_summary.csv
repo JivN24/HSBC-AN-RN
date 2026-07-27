@@ -1,0 +1,42 @@
+component,comparison_type,passed,maximum_absolute_difference,note
+result dictionary keys,exact,True,,exact structural comparison
+timing dictionary,exact,True,,exact structural comparison
+function metadata,exact,True,,exact structural comparison
+event feature names,exact,True,,exact structural comparison
+pipeline stage sequence,exact,True,,exact structural comparison
+simulation states,frame,True,0.0,frame equal within tight tolerance
+simulation transitions,frame,True,0.0,frame equal within tight tolerance
+transition table,frame,True,0.0,frame equal within tight tolerance
+training split,frame,True,0.0,frame equal within tight tolerance
+testing split,frame,True,0.0,frame equal within tight tolerance
+baseline fit-row identifiers,frame,True,0.0,frame equal within tight tolerance
+profile table,frame,True,0.0,frame equal within tight tolerance
+parametric profile fit-row identifiers,frame,True,0.0,frame equal within tight tolerance
+non-parametric profile fit-row identifiers,frame,True,0.0,frame equal within tight tolerance
+forecast inputs,frame,True,0.0,frame equal within tight tolerance
+forecast table,frame,True,0.0,frame equal within tight tolerance
+evaluation table,frame,True,0.0,frame equal within tight tolerance
+accuracy table,frame,True,0.0,frame equal within tight tolerance
+relative-gain table,frame,True,0.0,frame equal within tight tolerance
+interval table,frame,True,0.0,frame equal within tight tolerance
+interval summary,frame,True,0.0,frame equal within tight tolerance
+GC table,frame,True,0.0,frame equal within tight tolerance
+conditional-structure table,frame,True,0.0,frame equal within tight tolerance
+TDMI level curve,frame,True,0.0,frame equal within tight tolerance
+TDMI change curve,frame,True,0.0,frame equal within tight tolerance
+TDMI summary,frame,True,0.0,frame equal within tight tolerance
+Known-DGP reference table,frame,True,0.0,frame equal within tight tolerance
+Known-DGP accuracy table,frame,True,0.0,frame equal within tight tolerance
+Known-DGP interval summary,frame,True,0.0,frame equal within tight tolerance
+baseline fitted parameters,numeric,True,0.0,allclose at specified tolerance
+baseline fitted values,numeric,True,0.0,allclose at specified tolerance
+baseline residual variance,numeric,True,0.0,allclose at specified tolerance
+A_hat,numeric,True,0.0,allclose at specified tolerance
+lambda_hat,numeric,True,0.0,allclose at specified tolerance
+parametric multiplier ages 0-12,numeric,True,0.0,allclose at specified tolerance
+non-parametric multiplier ages 0-12,numeric,True,0.0,allclose at specified tolerance
+Known-DGP profile metrics: parametric_multiplier,numeric,True,0.0,allclose at specified tolerance
+Known-DGP profile metrics: nonparametric_multiplier,numeric,True,0.0,allclose at specified tolerance
+split index,numeric,True,0.0,allclose at specified tolerance
+training active count,numeric,True,0.0,allclose at specified tolerance
+testing active count,numeric,True,0.0,allclose at specified tolerance
