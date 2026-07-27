@@ -1,0 +1,7 @@
+system,direction,rejection rate,median TE,required criterion,pass
+independent persistent null,forward,0.06666666666666667,0.02920125307370884,rejection rate at most 15%,True
+independent persistent null,reverse,0.06666666666666667,0.033401205250788435,rejection rate at most 15%,True
+linear Gaussian direction,forward,1.0,0.40106982579806605,rejection rate at least 70%,True
+linear Gaussian direction,reverse,0.06666666666666667,0.0326891020686638,rejection rate at most 25%,True
+nonlinear direction,forward,1.0,0.297377909462207,rejection rate at least 60%,True
+nonlinear direction,reverse,0.0,0.02963581546112891,rejection rate at most 25%,True

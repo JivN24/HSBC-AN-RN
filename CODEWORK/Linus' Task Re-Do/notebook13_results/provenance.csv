@@ -1,0 +1,9 @@
+synthesis output,source notebook,source file or checkpoint,extraction method,number of seeds,note
+experiment registry,00–12,notebook filenames and executed workspace,registry assembly,varies,manual descriptive assembly
+dependence and directional summary,11,notebook11_results/run_metrics.csv; experiment_config.json,automated checkpoint aggregation,50,changes; held-out no-effect seeds for FPR
+TE validation status,11,notebook11_results/te_validation.csv; manifest.json,automated checkpoint read,30 validation seeds,all stored validation criteria passed
+n=1 parameter robustness,08,notebook08_results/notebook08_numeric_summary.csv,automated checkpoint read,50 per case,benchmark rows only in compact display
+n=2 robustness,09,notebook09_results/notebook09_calibration_numeric_summary.csv,automated checkpoint read,50,locally scale-matched case
+nonlinear functional design,07,stored notebook design; no checkpoint extraction,experiment-design provenance; one-seed exploratory evidence,1,no numerical result extracted
+schedule robustness,10,notebook10_results/stage4_seed_case_analysis.csv; stage5_headline_results.csv,automated checkpoint aggregation,50 paired,"dense, sparse periodic, sparse irregular"
+log decomposition,12,stored executed notebook output,manual stored-output inspection with nbformat,1,qualitative result only
