@@ -1,7 +1,0 @@
-case_name,initial_event_weight,parameter_value,attempted_runs,valid_path_count,successful_pipeline_count,mean_maximum_volatility_before_failure,minimum_euler_price_update_factor,nonpositive_price_failures,invalid_path_count,survival_proportion,simulation_failures,fitting_failures_after_valid_simulation,convergence_warnings
-weight_1_05,1.05,0.05,50,50,50,1.3221244924370665,0.7071447912327355,0,0,1.0,0,0,0
-weight_1_10,1.1,0.1,50,0,0,8.743660498338011,-0.5857704189748061,50,50,0.0,50,0,0
-weight_1_20,1.2,0.2,50,0,0,10.87422115909062,-1.009462631521521,50,50,0.0,50,0,0
-weight_1_30,1.3,0.3,50,0,0,11.907208535666557,-2.805929252930279,50,50,0.0,50,0,0
-weight_1_40,1.4,0.4,50,0,0,13.760526593023386,-2.1930373249655104,50,50,0.0,50,0,0
-weight_1_50,1.5,0.5,50,0,0,15.718398094562977,-3.4369525581496427,50,50,0.0,50,0,0
