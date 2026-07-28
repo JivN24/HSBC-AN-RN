@@ -1,0 +1,2 @@
+configuration,sequence,attempted_seeds,valid_path_count,invalid_path_count,survival_proportion,median_first_failure_transition,mean_maximum_volatility_before_failure,minimum_euler_price_update_factor
+heterogeneous_high_weight,"1.10, 1.25, 1.50, 1.75, 2.00",50,0,50,0.0,98.5,17.691748952385893,-5.470790598963199
