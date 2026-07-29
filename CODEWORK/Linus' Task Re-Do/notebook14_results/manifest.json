@@ -1,0 +1,118 @@
+{
+  "notebook_name": "14_real_data_audit_and_event_alignment.ipynb",
+  "execution_timestamp_utc": "2026-07-29T12:06:21.891921+00:00",
+  "source_files_read": [
+    "Currency Daily BidAskLast.xlsx",
+    "daily_mid.csv",
+    "ATM_Volatility_-_all_currencies_diff_tenors.xlsx",
+    "imp vol diff tenors.xlsx",
+    "imp vol daily 5 years.xlsx",
+    "25R - all currencies diff tenors.xlsx",
+    "25B - all currencies diff tenors.xlsx",
+    "calendar_events.xlsx",
+    "boj_monetary_policy_meetings_2015_2026.csv"
+  ],
+  "source_files_excluded": {
+    "Currency Hourly BidAskLast.xlsx": "hourly excluded",
+    "hourly_mid.csv": "hourly excluded",
+    "mxn pln daily.xlsx": "other pair",
+    "mxn pln hourly.xlsx": "other pair/hourly",
+    "mxn pln hourly1.xlsx": "other pair/hourly",
+    "EUR_PLN Historical Data.csv": "other pair",
+    "EUR_PLN Historical Data 2006_2026.csv": "other pair"
+  },
+  "canonical_choices": {
+    "canonical_spot_source": "Currency Daily BidAskLast.xlsx",
+    "canonical_atm_source": "ATM_Volatility_-_all_currencies_diff_tenors.xlsx",
+    "canonical_fomc_source": "calendar_events.xlsx",
+    "canonical_boj_source": "boj_monetary_policy_meetings_2015_2026.csv",
+    "spot_columns": "Dates; USDJPY PX_BID/PX_ASK/PX_LAST (H:J)",
+    "atm_sheet_ticker": "1M; USDJPYV1M BGN Curncy",
+    "iv_unit": "volatility percentage points",
+    "full_common_panel_start": "1995-12-04 00:00:00",
+    "full_common_panel_end": "2026-06-10 00:00:00",
+    "full_common_panel_observations": 7922,
+    "event_calendar_period": "2015-06-19 to 2026-04-29",
+    "usable_event_period": "BoJ: 2015 onward; FOMC: 2021 onward",
+    "common_bank_comparison_period": "2021-07-28 to 2026-04-29",
+    "fomc_inside_panel": 39,
+    "boj_inside_panel": 82,
+    "common_period_fomc": 39,
+    "common_period_boj": 38,
+    "native_common_transition_mismatches": 32,
+    "crossed_quote_count": 12,
+    "secondary_atm_conflict_count": 1305,
+    "bf_1w_anomaly": "USDJPY25R1W BGN Curncy",
+    "event_contamination_summary": "[{\"alignment_convention\": \"next_observation\", \"central_bank\": \"BoJ\", \"events\": 82, \"full_window_contaminated\": 44, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 38, \"post_window_clean\": 60}, {\"alignment_convention\": \"next_observation\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"BoJ\", \"events\": 82, \"full_window_contaminated\": 44, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 38, \"post_window_clean\": 60}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}]",
+    "unresolved_issue": "Daily Bloomberg IV fixing time unknown; retain both daily alignment conventions for Notebook 15."
+  },
+  "event_window_counts": [
+    {
+      "alignment_convention": "next_observation",
+      "central_bank": "BoJ",
+      "events": 82,
+      "full_window_contaminated": 44,
+      "post_window_contaminated": 22,
+      "strict_full_window_clean": 38,
+      "post_window_clean": 60
+    },
+    {
+      "alignment_convention": "next_observation",
+      "central_bank": "FOMC",
+      "events": 39,
+      "full_window_contaminated": 39,
+      "post_window_contaminated": 20,
+      "strict_full_window_clean": 0,
+      "post_window_clean": 19
+    },
+    {
+      "alignment_convention": "same_date",
+      "central_bank": "BoJ",
+      "events": 82,
+      "full_window_contaminated": 44,
+      "post_window_contaminated": 22,
+      "strict_full_window_clean": 38,
+      "post_window_clean": 60
+    },
+    {
+      "alignment_convention": "same_date",
+      "central_bank": "FOMC",
+      "events": 39,
+      "full_window_contaminated": 39,
+      "post_window_contaminated": 20,
+      "strict_full_window_clean": 0,
+      "post_window_clean": 19
+    }
+  ],
+  "common_period_counts": {
+    "BoJ": 38,
+    "FOMC": 39
+  },
+  "native_common_transition_mismatches": 32,
+  "output_files": [
+    "atm_source_reconciliation.csv",
+    "boj_decisions_clean.csv",
+    "boj_duplicate_resolution.csv",
+    "canonical_source_recommendation.csv",
+    "central_bank_decisions_clean.csv",
+    "event_alignment_next_observation.csv",
+    "event_alignment_same_date.csv",
+    "event_window_coverage.csv",
+    "event_windows_next_observation.csv",
+    "event_windows_same_date.csv",
+    "fomc_decisions_clean.csv",
+    "manifest.json",
+    "option_source_anomalies.csv",
+    "raw_file_inventory.csv",
+    "usdjpy_25d_bf_tidy.csv",
+    "usdjpy_25d_rr_tidy.csv",
+    "usdjpy_atm_tidy.csv",
+    "usdjpy_daily_spot_1m_atm_panel.csv",
+    "usdjpy_spot_quality_audit.csv"
+  ],
+  "raw_files_changed": false,
+  "causal_analysis_or_forecasting_run": false,
+  "unresolved_questions": [
+    "Daily Bloomberg IV fixing time unknown; retain both daily alignment conventions for Notebook 15."
+  ]
+}
