@@ -1,6 +1,6 @@
 {
   "notebook_name": "14_real_data_audit_and_event_alignment.ipynb",
-  "execution_timestamp_utc": "2026-07-29T12:06:21.891921+00:00",
+  "execution_timestamp_utc": "2026-07-29T13:48:27.338135+00:00",
   "source_files_read": [
     "Currency Daily BidAskLast.xlsx",
     "daily_mid.csv",
@@ -32,29 +32,42 @@
     "full_common_panel_start": "1995-12-04 00:00:00",
     "full_common_panel_end": "2026-06-10 00:00:00",
     "full_common_panel_observations": 7922,
-    "event_calendar_period": "2015-06-19 to 2026-04-29",
+    "event_calendar_period": "2015-01-21 to 2026-04-29",
     "usable_event_period": "BoJ: 2015 onward; FOMC: 2021 onward",
     "common_bank_comparison_period": "2021-07-28 to 2026-04-29",
+    "boj_raw_rows": 108,
+    "boj_raw_decision_rows": 105,
+    "boj_minutes_rows_excluded": 3,
+    "boj_unique_cleaned_decisions": 99,
+    "boj_duplicate_decision_dates": 6,
     "fomc_inside_panel": 39,
-    "boj_inside_panel": 82,
+    "boj_inside_panel": 98,
+    "inside_panel_decisions_total": 137,
+    "event_window_rows_same_date": 4247,
+    "event_window_rows_next_observation": 4247,
     "common_period_fomc": 39,
     "common_period_boj": 38,
     "native_common_transition_mismatches": 32,
     "crossed_quote_count": 12,
-    "secondary_atm_conflict_count": 1305,
+    "shorter_1m_common_dates": 1305,
+    "shorter_1m_exact_matches": 1305,
+    "shorter_1m_conflict_count": 0,
+    "five_year_atm_conflict_count": 1,
+    "five_year_atm_conflicting_dates": "2026-06-18",
+    "secondary_atm_conflict_count": 1,
     "bf_1w_anomaly": "USDJPY25R1W BGN Curncy",
-    "event_contamination_summary": "[{\"alignment_convention\": \"next_observation\", \"central_bank\": \"BoJ\", \"events\": 82, \"full_window_contaminated\": 44, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 38, \"post_window_clean\": 60}, {\"alignment_convention\": \"next_observation\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"BoJ\", \"events\": 82, \"full_window_contaminated\": 44, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 38, \"post_window_clean\": 60}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}]",
+    "event_contamination_summary": "[{\"alignment_convention\": \"next_observation\", \"central_bank\": \"BoJ\", \"events\": 98, \"full_window_contaminated\": 52, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 46, \"post_window_clean\": 76}, {\"alignment_convention\": \"next_observation\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"BoJ\", \"events\": 98, \"full_window_contaminated\": 52, \"post_window_contaminated\": 22, \"strict_full_window_clean\": 46, \"post_window_clean\": 76}, {\"alignment_convention\": \"same_date\", \"central_bank\": \"FOMC\", \"events\": 39, \"full_window_contaminated\": 39, \"post_window_contaminated\": 20, \"strict_full_window_clean\": 0, \"post_window_clean\": 19}]",
     "unresolved_issue": "Daily Bloomberg IV fixing time unknown; retain both daily alignment conventions for Notebook 15."
   },
   "event_window_counts": [
     {
       "alignment_convention": "next_observation",
       "central_bank": "BoJ",
-      "events": 82,
-      "full_window_contaminated": 44,
+      "events": 98,
+      "full_window_contaminated": 52,
       "post_window_contaminated": 22,
-      "strict_full_window_clean": 38,
-      "post_window_clean": 60
+      "strict_full_window_clean": 46,
+      "post_window_clean": 76
     },
     {
       "alignment_convention": "next_observation",
@@ -68,11 +81,11 @@
     {
       "alignment_convention": "same_date",
       "central_bank": "BoJ",
-      "events": 82,
-      "full_window_contaminated": 44,
+      "events": 98,
+      "full_window_contaminated": 52,
       "post_window_contaminated": 22,
-      "strict_full_window_clean": 38,
-      "post_window_clean": 60
+      "strict_full_window_clean": 46,
+      "post_window_clean": 76
     },
     {
       "alignment_convention": "same_date",
@@ -84,6 +97,45 @@
       "post_window_clean": 19
     }
   ],
+  "boj_event_type_audit": [
+    {
+      "Event": "BoJ Interest Rate Decision",
+      "raw_row_count": 105
+    },
+    {
+      "Event": "BoJ Monetary Policy Meeting Minutes",
+      "raw_row_count": 3
+    }
+  ],
+  "boj_raw_rows": 108,
+  "boj_raw_decision_rows": 105,
+  "boj_minutes_rows_excluded": 3,
+  "boj_unique_cleaned_decisions": 99,
+  "boj_duplicate_decision_dates": 6,
+  "inside_panel_decisions_total": 137,
+  "secondary_atm_reconciliation": [
+    {
+      "comparison": "short_1month",
+      "common_dates": 1305,
+      "exact_matches": 1305,
+      "conflicting_date_count": 0,
+      "max_abs_difference": 0.0,
+      "conflicting_dates": "",
+      "canonical_values_at_conflict": "",
+      "secondary_values_at_conflict": ""
+    },
+    {
+      "comparison": "conflicting_5year",
+      "common_dates": 1305,
+      "exact_matches": 1304,
+      "conflicting_date_count": 1,
+      "max_abs_difference": 1.2249999999999996,
+      "conflicting_dates": "2026-06-18",
+      "canonical_values_at_conflict": "7.81",
+      "secondary_values_at_conflict": "6.585"
+    }
+  ],
+  "total_secondary_atm_conflicts": 1,
   "common_period_counts": {
     "BoJ": 38,
     "FOMC": 39
@@ -93,6 +145,7 @@
     "atm_source_reconciliation.csv",
     "boj_decisions_clean.csv",
     "boj_duplicate_resolution.csv",
+    "boj_event_type_audit.csv",
     "canonical_source_recommendation.csv",
     "central_bank_decisions_clean.csv",
     "event_alignment_next_observation.csv",

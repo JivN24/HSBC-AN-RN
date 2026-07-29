@@ -1,3 +1,3 @@
-comparison,common_dates,exact_matches,conflicting_date_count,max_abs_difference
-short_1month,1305,1,1304,7.015000000000001
-conflicting_5year,1305,1304,1,1.2249999999999996
+comparison,common_dates,exact_matches,conflicting_date_count,max_abs_difference,conflicting_dates,canonical_values_at_conflict,secondary_values_at_conflict
+short_1month,1305,1305,0,0.0,,,
+conflicting_5year,1305,1304,1,1.2249999999999996,2026-06-18,7.81,6.585
