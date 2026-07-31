@@ -1,0 +1,70 @@
+method,bank,sample,comparison,result
+event_study,BoJ vs FOMC,common_comparison_period,next_observation pre_5_to_1,"FOMC minus BoJ=0.0878 [-0.3962, 0.5484]"
+event_study,BoJ vs FOMC,common_comparison_period,next_observation event_day,"FOMC minus BoJ=0.0379 [-0.1733, 0.2507]"
+event_study,BoJ vs FOMC,common_comparison_period,next_observation post_1,"FOMC minus BoJ=-0.3464 [-0.6409, -0.0570]"
+event_study,BoJ vs FOMC,common_comparison_period,next_observation post_5,"FOMC minus BoJ=-0.0979 [-0.5657, 0.3750]"
+event_study,BoJ vs FOMC,common_comparison_period,next_observation post_10,"FOMC minus BoJ=-0.0147 [-0.5182, 0.5244]"
+event_study,BoJ vs FOMC,common_comparison_period,same_date pre_5_to_1,"FOMC minus BoJ=-0.1447 [-0.6207, 0.3144]"
+event_study,BoJ vs FOMC,common_comparison_period,same_date event_day,"FOMC minus BoJ=0.0853 [-0.2895, 0.4535]"
+event_study,BoJ vs FOMC,common_comparison_period,same_date post_1,"FOMC minus BoJ=0.1232 [-0.2680, 0.5601]"
+event_study,BoJ vs FOMC,common_comparison_period,same_date post_5,"FOMC minus BoJ=-0.0951 [-0.6150, 0.4314]"
+event_study,BoJ vs FOMC,common_comparison_period,same_date post_10,"FOMC minus BoJ=0.1146 [-0.4229, 0.6892]"
+event_study,BoJ,all_usable_in_panel,same-date versus next-observation,stable direction
+event_study,BoJ,common_comparison_period,same-date versus next-observation,alignment-sensitive direction
+event_study,BoJ,post_window_clean,same-date versus next-observation,stable direction
+event_study,BoJ,strict_full_window_clean,same-date versus next-observation,stable direction
+event_study,FOMC,all_usable_in_panel,same-date versus next-observation,alignment-sensitive direction
+event_study,FOMC,common_comparison_period,same-date versus next-observation,alignment-sensitive direction
+event_study,FOMC,post_window_clean,same-date versus next-observation,alignment-sensitive direction
+GC,BoJ,all_usable_in_panel,next_observation; atm_1m_div,permutation-supported horizons none
+GC,BoJ,all_usable_in_panel,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5, 10]"
+GC,BoJ,all_usable_in_panel,next_observation; atm_1m_dlogiv,permutation-supported horizons none
+GC,BoJ,all_usable_in_panel,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5, 10]"
+GC,BoJ,common_comparison_period,next_observation; atm_1m_div,permutation-supported horizons none
+GC,BoJ,common_comparison_period,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5]"
+GC,BoJ,common_comparison_period,next_observation; atm_1m_dlogiv,permutation-supported horizons none
+GC,BoJ,common_comparison_period,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5]"
+GC,BoJ,post_window_clean,next_observation; atm_1m_div,permutation-supported horizons none
+GC,BoJ,post_window_clean,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5, 10]"
+GC,BoJ,post_window_clean,next_observation; atm_1m_dlogiv,permutation-supported horizons none
+GC,BoJ,post_window_clean,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5, 10]"
+GC,BoJ,strict_full_window_clean,next_observation; atm_1m_div,permutation-supported horizons none
+GC,BoJ,strict_full_window_clean,same_date; atm_1m_div,permutation-supported horizons none
+GC,BoJ,strict_full_window_clean,next_observation; atm_1m_dlogiv,permutation-supported horizons none
+GC,BoJ,strict_full_window_clean,same_date; atm_1m_dlogiv,permutation-supported horizons none
+GC,FOMC,all_usable_in_panel,next_observation; atm_1m_div,"permutation-supported horizons [2, 5, 10]"
+GC,FOMC,all_usable_in_panel,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5, 10]"
+GC,FOMC,all_usable_in_panel,next_observation; atm_1m_dlogiv,"permutation-supported horizons [5, 10]"
+GC,FOMC,all_usable_in_panel,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5, 10]"
+GC,FOMC,common_comparison_period,next_observation; atm_1m_div,"permutation-supported horizons [2, 5, 10]"
+GC,FOMC,common_comparison_period,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5, 10]"
+GC,FOMC,common_comparison_period,next_observation; atm_1m_dlogiv,"permutation-supported horizons [5, 10]"
+GC,FOMC,common_comparison_period,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5, 10]"
+GC,FOMC,post_window_clean,next_observation; atm_1m_div,permutation-supported horizons none
+GC,FOMC,post_window_clean,same_date; atm_1m_div,"permutation-supported horizons [1, 2, 5, 10]"
+GC,FOMC,post_window_clean,next_observation; atm_1m_dlogiv,"permutation-supported horizons [5, 10]"
+GC,FOMC,post_window_clean,same_date; atm_1m_dlogiv,"permutation-supported horizons [1, 2, 5, 10]"
+TDMI,BoJ,all_usable_in_panel,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,BoJ,all_usable_in_panel,alignment; raw_iv_change; bins=3,TDMI alignment-dependent
+TDMI,BoJ,all_usable_in_panel,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,BoJ,all_usable_in_panel,alignment; raw_iv_change; bins=7,TDMI alignment-dependent
+TDMI,BoJ,all_usable_in_panel,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,BoJ,common_comparison_period,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,BoJ,common_comparison_period,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,BoJ,post_window_clean,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,BoJ,post_window_clean,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,BoJ,strict_full_window_clean,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,BoJ,strict_full_window_clean,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,FOMC,all_usable_in_panel,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,FOMC,all_usable_in_panel,alignment; raw_iv_change; bins=3,TDMI alignment-dependent
+TDMI,FOMC,all_usable_in_panel,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,FOMC,all_usable_in_panel,alignment; raw_iv_change; bins=7,TDMI alignment-dependent
+TDMI,FOMC,all_usable_in_panel,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,FOMC,common_comparison_period,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,FOMC,common_comparison_period,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,FOMC,post_window_clean,alignment; background_residual; bins=5,TDMI alignment-dependent
+TDMI,FOMC,post_window_clean,alignment; raw_iv_change; bins=5,TDMI alignment-dependent
+TDMI,BoJ,all_usable_in_panel,bin-count robustness; next_observation,bin-sensitive
+TDMI,FOMC,all_usable_in_panel,bin-count robustness; next_observation,bin-sensitive
+TDMI,BoJ,all_usable_in_panel,bin-count robustness; same_date,bin-sensitive
+TDMI,FOMC,all_usable_in_panel,bin-count robustness; same_date,bin-sensitive

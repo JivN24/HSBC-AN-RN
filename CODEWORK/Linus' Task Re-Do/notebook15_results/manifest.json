@@ -1,0 +1,82 @@
+{
+  "notebook_name": "15_empirical_event_study_and_causality.ipynb",
+  "creation_timestamp_utc": "2026-07-29T19:39:31.418718+00:00",
+  "panel_period": [
+    "1995-12-04",
+    "2026-06-10"
+  ],
+  "event_counts": {
+    "BoJ_all_events": 98,
+    "FOMC_all_events": 39,
+    "BoJ_common_period": 38,
+    "FOMC_common_period": 39,
+    "BoJ_post_window_clean": 76,
+    "FOMC_post_window_clean": 19,
+    "BoJ_strict_full_window_clean": 46
+  },
+  "alignment_conventions": [
+    "same_date",
+    "next_observation"
+  ],
+  "random_seeds": {
+    "event_study": 1501,
+    "gc": 1502,
+    "tdmi": 1503
+  },
+  "bootstrap_replications": 2000,
+  "placebo_draws": 1000,
+  "gc_permutation_settings": {
+    "draws_per_model": 1000,
+    "weekly_phase_shifts": true,
+    "support_rule": "effective pulse support retained"
+  },
+  "tdmi_permutation_settings": {
+    "maximum_monte_carlo_draws": 1000,
+    "absolute_minimum_unique_shifts": 75,
+    "preferred_minimum_unique_shifts": 100,
+    "exact_finite_sets_below_1000": true,
+    "replacement_sampling": false
+  },
+  "multiple_testing_rules": {
+    "placebo": "BH across five pre-specified estimands",
+    "gc": "BH across four horizons",
+    "tdmi": "BH across 21 lags"
+  },
+  "primary_outcomes": [
+    "iv_change_from_pre",
+    "atm_1m_div"
+  ],
+  "robustness_outcomes": [
+    "atm_1m_dlogiv",
+    "background_residual"
+  ],
+  "output_filenames": [
+    "diagnostics_summary.csv",
+    "event_study_summary.csv",
+    "gc_event_lag_coefficients.csv",
+    "gc_results.csv",
+    "manifest.json",
+    "phase15_summary.csv",
+    "placebo_results.csv",
+    "robustness_summary.csv",
+    "tdmi_results.csv"
+  ],
+  "figure_filenames": [
+    "figure_1_event_centred_iv_profile.png",
+    "figure_2_daily_iv_change_profile.png",
+    "figure_3_estimands_vs_placebo.png",
+    "figure_4_alignment_sensitivity.png",
+    "figure_5_gc_incremental_predictive_value.png",
+    "figure_6_gc_event_lag_coefficients.png",
+    "figure_7_tdmi_raw_iv_change.png",
+    "figure_8_tdmi_background_residual.png"
+  ],
+  "major_limitations": [
+    "Daily IV fixing time is unknown; both alignment conventions are retained.",
+    "Event-study, GC, and TDMI diagnostics are association or predictive evidence, not interventionist causality.",
+    "Sparse binary event support limits conditional high-dimensional estimators."
+  ],
+  "transfer_entropy_feasibility_decision": "Not implemented in Notebook 15; available sparse daily event support does not justify an unvalidated higher-dimensional conditional-density estimator.",
+  "notebook_16_handoff": "Use gc_event_lag_coefficients.csv as the retained coefficient-level input; empirical event-response weight estimation begins only in Notebook 16.",
+  "numerical_equivalence_status": "passed (verified before consolidation)"
+}

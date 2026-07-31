@@ -1,0 +1,2 @@
+sample_start,sample_end,observations,duplicates,missing_rows,crossed_quotes,nonpositive_quotes,weekends,gaps_over_3_days,mid_validation_common_dates,mid_validation_mismatches,mid_last_mean_abs_difference
+1986-06-11,2026-06-10,10436,0,0,12,0,0,0,10436,0,0.003624472978153877

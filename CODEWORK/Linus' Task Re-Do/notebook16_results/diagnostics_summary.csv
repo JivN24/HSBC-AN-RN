@@ -1,0 +1,51 @@
+validation_category,observed_value,passed
+upstream inputs validated,Notebook 14 and 15 checkpoint files only,True
+full response-age support preserved,support buffer equals abs(min age) plus AR order,True
+effective event count equals nominal count at every target age,minimum nominal 19; minimum effective 19,True
+overlapping other-bank windows included,minimum overlapping other-bank events 39,True
+complementary same-bank nuisance controls included where required,14 sensitivity models with overlapping complements,True
+all primary regressions full rank,14 of 14 full rank,True
+condition numbers finite,maximum 2.04e+02,True
+cumulative covariance calculation passed,full HAC covariance submatrices,True
+weighted-RMSE units validated,sqrt weighted squared IV-change residuals,True
+all parametric fits report convergence and fit quality,26 converged fits,True
+Figure 2 contains actual plotted observations,"data lines per panel [2, 2]",True
+all three figures exist,non-empty figures 3,True
+expected lean outputs exist,"five CSV files, manifest, and figures directory",True
+common forecast dates validated,matched dates across alignments,True
+chronological split validated,training end precedes forecast date,True
+training end precedes forecast date,all prediction rows,True
+lagged predictors only,forecast vectors use t-1 through t-p IV and spot values,True
+training-only AR selection,BIC selected separately at every origin,True
+training-only event-weight estimation,event model refit at every origin,True
+full-sample Phase A weights excluded,Phase A CSVs fingerprinted only and not merged as coefficients,True
+equal model evaluation samples,four matched models per date and alignment,True
+minimum prior event support,completed event thresholds,True
+full-rank forecast models,all background and event matrices asserted full rank,True
+finite forecasts,all prediction rows,True
+parametric fallback tracking,stored per prediction and snapshot,True
+prediction count equality,matched rows,True
+performance subset construction,eight overlapping subsets,True
+DM family construction,BH within alignment subset loss family,True
+Phase A numerical equivalence,tight CSV fingerprints reproduced,True
+six non-empty figures,three Phase A and three Phase B figures,True
+expected output files,lean Phase A plus Phase B output set,True
+temporary repository files absent,no temporary scripts or logs,True
+common training start across alignments,2015-01-01,True
+identical event-unaware forecasts across alignments,zero-change and background ARX,True
+common BIC comparison sample,one maximum-lag sample per origin,True
+training-only AR-order selection,BIC inside each expanding training window,True
+training-only event-weight estimation,event coefficients re-estimated at every origin,True
+full-rank forecast designs,all fitted designs,True
+finite design condition numbers,all fitted designs,True
+matched forecast dates,four models per date and alignment,True
+correct DM sign classification,sign plus BH significance,True
+training-only interval residuals,residuals end before forecast date,True
+minimum residual support,>=250,True
+change-level interval translation,coverage indicators asserted equal,True
+matched interval comparison samples,event and background dates aligned,True
+interval-score formula,lower score is better; background minus event differential,True
+interval BH families,two event models per family,True
+eight non-empty figures,figures 1 through 8,True
+expected output files,lean A through C result set,True
+temporary repository files absent,no temporary scripts or logs,True

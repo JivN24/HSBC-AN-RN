@@ -1,0 +1,7 @@
+pair,alignment,overlap_start_date,overlap_end_date,complete_pairwise_observations,retained_BoJ_event_count,retained_FOMC_event_count
+ATM-RR,same_date,2003-10-02,2026-06-10,5891,98,39
+ATM-RR,next_observation,2003-10-02,2026-06-10,5891,98,39
+ATM-BF,same_date,2003-10-01,2026-06-10,5902,98,39
+ATM-BF,next_observation,2003-10-01,2026-06-10,5902,98,39
+RR-BF,same_date,2003-10-02,2026-07-01,5893,99,40
+RR-BF,next_observation,2003-10-02,2026-07-01,5893,99,39

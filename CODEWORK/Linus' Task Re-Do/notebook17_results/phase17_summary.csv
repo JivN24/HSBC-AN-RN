@@ -1,0 +1,8 @@
+topic,finding
+BoJ event-associated response,"same_date: ATM=-0.479, RR=0.177, BF=-0.104 SD; next_observation: ATM=-0.071, RR=-0.123, BF=-0.006 SD"
+FOMC event-associated response,"same_date: ATM=-0.448, RR=0.060, BF=-0.121 SD; next_observation: ATM=0.110, RR=-0.100, BF=0.103 SD"
+same_date main-window TDMI,"ATM-RR: actual peak 0.014 (q=0.999), pseudo peak 0.037 (q=0.769); ATM-BF: actual peak 0.023 (q=0.999), pseudo peak 0.037 (q=0.769); RR-BF: actual peak 0.022 (q=0.999), pseudo peak 0.036 (q=0.769); signed-lag evidence is descriptive and not an event-specific causal ordering."
+next_observation main-window TDMI,"ATM-RR: actual peak 0.013 (q=0.999), pseudo peak 0.040 (q=0.807); ATM-BF: actual peak 0.022 (q=0.999), pseudo peak 0.038 (q=0.807); RR-BF: actual peak 0.021 (q=0.999), pseudo peak 0.039 (q=0.807); signed-lag evidence is descriptive and not an event-specific causal ordering."
+joint multichannel response,0 BH-supported Hotelling-type schedule-permutation tests out of 14.
+alignment sensitivity,4 immediate-response bank-channel comparisons change sign across alignments.
+forecasting extension,Not justified automatically: context-preserving TDMI and chronological Granger diagnostics do not establish stable event-specific channel ordering.

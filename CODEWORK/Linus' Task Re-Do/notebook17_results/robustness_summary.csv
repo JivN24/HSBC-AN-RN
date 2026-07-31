@@ -1,0 +1,19 @@
+comparison_type,bank,channel,sample,same_date,next_observation,difference,classification
+same_date versus next_observation immediate response,BoJ,ATM,all_complete,-0.4785752019086723,-0.07063775291281232,-0.40793744899586,same sign
+all complete versus common period,BoJ,ATM,same_date,-0.4785752019086723,-0.5957084550239559,0.11713325311528355,sample sensitivity descriptive
+all complete versus common period,BoJ,ATM,next_observation,-0.07063775291281232,0.043830627846177306,-0.11446838075898963,sample sensitivity descriptive
+same_date versus next_observation immediate response,BoJ,RR,all_complete,0.17736390823816786,-0.12326598415680952,0.3006298923949774,sign changes
+all complete versus common period,BoJ,RR,same_date,0.17736390823816786,0.90651986291771,-0.7291559546795422,sample sensitivity descriptive
+all complete versus common period,BoJ,RR,next_observation,-0.12326598415680952,-0.16941192014951703,0.04614593599270751,sample sensitivity descriptive
+same_date versus next_observation immediate response,BoJ,BF,all_complete,-0.10361561654759899,-0.006279734336218217,-0.09733588221138077,same sign
+all complete versus common period,BoJ,BF,same_date,-0.10361561654759899,-0.19434125208927663,0.09072563554167765,sample sensitivity descriptive
+all complete versus common period,BoJ,BF,next_observation,-0.006279734336218217,-0.10526817821502477,0.09898844387880655,sample sensitivity descriptive
+same_date versus next_observation immediate response,FOMC,ATM,all_complete,-0.4477537455215652,0.10954730236928507,-0.5573010478908503,sign changes
+all complete versus common period,FOMC,ATM,same_date,-0.4477537455215652,-0.4477537455215652,0.0,sample sensitivity descriptive
+all complete versus common period,FOMC,ATM,next_observation,0.10954730236928507,0.10954730236928507,0.0,sample sensitivity descriptive
+same_date versus next_observation immediate response,FOMC,RR,all_complete,0.05987761682509336,-0.1000118032375882,0.15988942006268156,sign changes
+all complete versus common period,FOMC,RR,same_date,0.05987761682509336,0.05987761682509336,0.0,sample sensitivity descriptive
+all complete versus common period,FOMC,RR,next_observation,-0.1000118032375882,-0.1000118032375882,0.0,sample sensitivity descriptive
+same_date versus next_observation immediate response,FOMC,BF,all_complete,-0.12097881362252672,0.10256899415822932,-0.22354780778075603,sign changes
+all complete versus common period,FOMC,BF,same_date,-0.12097881362252672,-0.12097881362252672,0.0,sample sensitivity descriptive
+all complete versus common period,FOMC,BF,next_observation,0.10256899415822932,0.10256899415822932,0.0,sample sensitivity descriptive
