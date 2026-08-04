@@ -795,7 +795,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260764,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,71.5720314680568,33.55041455169424,-38.02161691636257
 20260765,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,74.00033811939323,39.542715149121065,-34.45762297027217
 20260766,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,72.45713171411845,34.573965263146555,-37.88316645097189
-20260767,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,67.16193099418193,29.428115273823757,-37.73381572035817
+20260767,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,67.16193099418193,29.42811527382376,-37.733815720358166
 20260768,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,73.58453183576363,41.38513302896916,-32.19939880679447
 20260769,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,68.49772350251257,33.805430531396766,-34.692292971115805
 20260770,amplitude,n2_amplitude_low,low,0.005,parametric_active_MAE_gain_pct,73.17112912272654,35.00310684114859,-38.16802228157795
@@ -877,7 +877,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260746,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,72.4828379372382,39.70421810231744,-32.77861983492076
 20260747,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,71.33279194510109,37.57536311504991,-33.75742883005118
 20260748,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,69.66083456321708,37.02042600249322,-32.64040856072386
-20260749,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,68.5713743113225,25.192673692789437,-43.37870061853306
+20260749,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,68.5713743113225,25.19267369278944,-43.37870061853306
 20260750,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,70.01487947369043,39.504707594039424,-30.510171879651004
 20260751,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,75.57459652247933,51.101397699066766,-24.47319882341256
 20260752,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_MAE_gain_pct,70.03922333116029,38.23706545873667,-31.802157872423614
@@ -908,7 +908,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260727,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,64.82752143912694,29.397744710857165,-35.42977672826977
 20260728,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,70.01280481537928,37.275828565340895,-32.73697625003839
 20260729,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,66.38083035994819,29.004179455370483,-37.37665090457771
-20260730,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,67.25231154233533,29.334424930919237,-37.917886611416094
+20260730,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,67.25231154233533,29.33442493091924,-37.917886611416094
 20260731,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,67.12594622678922,29.1816669496744,-37.94427927711482
 20260732,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,65.08414299483631,31.46424532467066,-33.619897670165656
 20260733,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,63.75508546971152,24.607019036712764,-39.14806643299875
@@ -919,7 +919,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260738,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,69.693784716113,35.18428955103502,-34.50949516507798
 20260739,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,68.70000109859559,31.683947672950254,-37.01605342564534
 20260740,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,68.81881441502303,35.1155442287518,-33.703270186271226
-20260741,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,66.59971064358277,31.139950123112317,-35.459760520470454
+20260741,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,66.59971064358277,31.13995012311232,-35.45976052047045
 20260742,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,70.40330992800811,36.16172787128017,-34.24158205672794
 20260743,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,72.28781458772622,36.586057574155575,-35.70175701357064
 20260744,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,67.16644019630135,35.0631651275865,-32.10327506871485
@@ -936,7 +936,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260755,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,67.92273543217891,34.53182694629901,-33.3909084858799
 20260756,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,61.70809602873778,17.51245731020401,-44.19563871853377
 20260757,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,68.3488181140005,31.238883069166047,-37.109935044834444
-20260758,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,65.38177780108028,31.743947471004414,-33.63783033007586
+20260758,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,65.38177780108028,31.74394747100441,-33.637830330075865
 20260759,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,69.21249871294165,36.90862090735359,-32.303877805588066
 20260760,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,65.37198714174927,26.673126124375944,-38.69886101737333
 20260761,amplitude,n2_amplitude_low,low,0.005,nonparametric_active_RMSE_gain_pct,63.17101035754986,27.71699874311475,-35.45401161443511
@@ -3061,7 +3061,7 @@ seed,parameter_family,case_name,parameter_level,parameter_value,metric,benchmark
 20260730,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.0003436264159318,0.0001725311808936,-0.0001710952350382
 20260731,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.000135522676558,6.790571882314507e-05,-6.761695773485494e-05
 20260732,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.0004567580745446,0.0002260820195988,-0.00023067605494580002
-20260733,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,5.411895662847107e-05,2.7026466721114652e-05,-2.709248990735642e-05
+20260733,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,5.411895662847107e-05,2.702646672111465e-05,-2.7092489907356423e-05
 20260734,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.0002177038082295,0.0001119099644611,-0.0001057938437684
 20260735,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.000436417921508,0.0002118004661138,-0.00022461745539419998
 20260736,innovation_scale,n2_nu_low,low,0.001,parametric_profile_RMSE,0.0002963367821805,0.0001486248463409,-0.0001477119358396
