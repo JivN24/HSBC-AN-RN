@@ -1,0 +1,13 @@
+method,transformation,direction,held_out_runs,false_positive_count,false_positive_rate,wilson_95_low,wilson_95_high,threshold_calibration_partition,evaluation_partition
+Lagged correlation,changes,forward,250,14,0.056,0.03364764921901088,0.0917907207329439,calibration,evaluation
+Lagged correlation,changes,reverse,250,12,0.048,0.02766820153069461,0.08201230121318728,calibration,evaluation
+Lagged correlation,levels,forward,250,11,0.044,0.02474379816749356,0.07705777097235189,calibration,evaluation
+Lagged correlation,levels,reverse,250,19,0.076,0.04919164066173632,0.11564139731040066,calibration,evaluation
+TDMI,changes,forward,250,22,0.088,0.05883135595378163,0.12963848283046467,calibration,evaluation
+TDMI,changes,reverse,250,15,0.06,0.036694410839108495,0.09662289271688271,calibration,evaluation
+TDMI,levels,forward,250,20,0.08,0.052382328372331775,0.12032964320384165,calibration,evaluation
+TDMI,levels,reverse,250,12,0.048,0.02766820153069461,0.08201230121318728,calibration,evaluation
+Transfer entropy,changes,forward,250,18,0.072,0.04602556925826497,0.11092853510983557,calibration,evaluation
+Transfer entropy,changes,reverse,250,18,0.072,0.04602556925826497,0.11092853510983557,calibration,evaluation
+Transfer entropy,levels,forward,250,16,0.064,0.039774745277095874,0.10142149188293179,calibration,evaluation
+Transfer entropy,levels,reverse,250,13,0.052,0.030637655164191247,0.08692178118372709,calibration,evaluation

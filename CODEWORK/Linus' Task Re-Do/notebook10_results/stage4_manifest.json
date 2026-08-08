@@ -1,47 +1,29 @@
 {
-  "stage_name": "Notebook 10 Stage 4 schedule aggregation",
-  "checkpoint_version": 1,
-  "source_stage3_checkpoint_version": 1,
-  "case_order": [
+  "stage": "stage4",
+  "n_paired_seeds": 50,
+  "cases": [
     "dense_periodic",
     "sparse_periodic",
     "sparse_irregular"
   ],
-  "case_labels": {
-    "dense_periodic": "Dense periodic",
-    "sparse_periodic": "Sparse periodic",
-    "sparse_irregular": "Sparse irregular"
+  "gc_primary_selection_rule": "AIC",
+  "profile_methods": {
+    "parametric": "OLS event-free background",
+    "nonparametric": "RF event-free background",
+    "deployment": "OLS event-free background"
   },
-  "contrasts": {
-    "sparse_periodic_minus_dense_periodic": {
-      "reference_case": "dense_periodic",
-      "comparison_case": "sparse_periodic",
-      "scientific_role": "Effect of reducing event frequency and event count while retaining periodic timing"
-    },
-    "sparse_irregular_minus_sparse_periodic": {
-      "reference_case": "sparse_periodic",
-      "comparison_case": "sparse_irregular",
-      "scientific_role": "Effect of irregular timing at matched event count and average frequency"
-    },
-    "sparse_irregular_minus_dense_periodic": {
-      "reference_case": "dense_periodic",
-      "comparison_case": "sparse_irregular",
-      "scientific_role": "Combined effect of lower frequency, fewer events and irregular timing"
-    }
-  },
-  "number_of_complete_seeds": 50,
-  "numeric_interval_method": "two-sided 95% Student-t interval for MC mean",
-  "rate_interval_method": "95% Wilson interval",
-  "nominal_interval_coverage": 0.95,
-  "figure_files": [
-    "figure_4_forward_reverse_detection.png",
-    "figure_5_standardised_tdmi_curves.png",
-    "figure_6_tdmi_timing_outside_direct.png",
-    "figure_7_recovered_event_weight_profiles.png",
-    "figure_8_profile_recovery_error.png",
-    "figure_9_active_forecast_gains.png",
-    "figure_10_active_95_coverage.png",
-    "figure_11_active_95_interval_score.png",
-    "figure_12_same_seed_paired_contrasts.png"
-  ]
+  "target_policy": "No test target is fitted before forecast freeze; known DGP is evaluation-only.",
+  "checkpoints": [
+    "stage4_seed_case_analysis.csv",
+    "stage4_profile_age_summary.csv",
+    "stage4_methodology_checks.csv",
+    "stage4_aic_gc_rejection_summary.csv",
+    "stage4_case_numeric_summary.csv",
+    "stage4_case_rate_summary.csv",
+    "stage4_paired_contrasts_raw.csv",
+    "stage4_paired_contrast_summary.csv",
+    "stage4_metric_registry.csv",
+    "stage4_question_evidence.csv"
+  ],
+  "tdmi_checkpoint_retained": "stage3_tdmi_curve.csv"
 }

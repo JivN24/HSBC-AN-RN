@@ -1,43 +1,16 @@
 case_name,case_label,metric,count,successes,rate,ci_95_lower,ci_95_upper
-dense_periodic,Dense periodic,gc_level_detected_5pct,50,50,1.0,0.9286524008666414,1.0
-dense_periodic,Dense periodic,gc_change_detected_5pct,50,50,1.0,0.9286524008666414,1.0
-dense_periodic,Dense periodic,reverse_gc_level_detected_5pct,50,31,0.62,0.4815044693099298,0.7413721068980641
-dense_periodic,Dense periodic,reverse_gc_change_detected_5pct,50,37,0.74,0.6044684273515117,0.8412847250644762
-dense_periodic,Dense periodic,reverse_gc_level_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-dense_periodic,Dense periodic,reverse_gc_change_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-dense_periodic,Dense periodic,tdmi_level_exact_plus_1_recovered,50,9,0.18,0.09770192670234178,0.30796053674300783
-dense_periodic,Dense periodic,tdmi_change_exact_plus_1_recovered,50,22,0.44,0.3116219921125717,0.5769397197834315
-dense_periodic,Dense periodic,tdmi_level_direct_peak_at_window_boundary,50,14,0.28,0.17474170665911232,0.4166512369595657
-dense_periodic,Dense periodic,tdmi_change_direct_peak_at_window_boundary,50,23,0.46,0.3296965219222435,0.5960112860084253
-dense_periodic,Dense periodic,tdmi_level_global_peak_at_scan_boundary,50,10,0.2,0.1124375001577611,0.3303710593222542
-dense_periodic,Dense periodic,tdmi_change_global_peak_at_scan_boundary,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-dense_periodic,Dense periodic,parametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0
-dense_periodic,Dense periodic,nonparametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0
-sparse_periodic,Sparse periodic,gc_level_detected_5pct,50,49,0.98,0.8950455641036219,0.9964607407283539
-sparse_periodic,Sparse periodic,gc_change_detected_5pct,50,49,0.98,0.8950455641036219,0.9964607407283539
-sparse_periodic,Sparse periodic,reverse_gc_level_detected_5pct,50,4,0.08,0.03154951408859298,0.18838246918342838
-sparse_periodic,Sparse periodic,reverse_gc_change_detected_5pct,50,6,0.12,0.05617600150932274,0.23804817383202992
-sparse_periodic,Sparse periodic,reverse_gc_level_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_periodic,Sparse periodic,reverse_gc_change_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_periodic,Sparse periodic,tdmi_level_exact_plus_1_recovered,50,5,0.1,0.04347576493189041,0.21360231437479654
-sparse_periodic,Sparse periodic,tdmi_change_exact_plus_1_recovered,50,17,0.34,0.2243694922250009,0.478461739497674
-sparse_periodic,Sparse periodic,tdmi_level_direct_peak_at_window_boundary,50,14,0.28,0.17474170665911232,0.4166512369595657
-sparse_periodic,Sparse periodic,tdmi_change_direct_peak_at_window_boundary,50,17,0.34,0.2243694922250009,0.478461739497674
-sparse_periodic,Sparse periodic,tdmi_level_global_peak_at_scan_boundary,50,3,0.06,0.02061497034897397,0.16217091688838173
-sparse_periodic,Sparse periodic,tdmi_change_global_peak_at_scan_boundary,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_periodic,Sparse periodic,parametric_positive_MAE_gain,50,49,0.98,0.8950455641036219,0.9964607407283539
-sparse_periodic,Sparse periodic,nonparametric_positive_MAE_gain,50,49,0.98,0.8950455641036219,0.9964607407283539
-sparse_irregular,Sparse irregular,gc_level_detected_5pct,50,50,1.0,0.9286524008666414,1.0
-sparse_irregular,Sparse irregular,gc_change_detected_5pct,50,50,1.0,0.9286524008666414,1.0
-sparse_irregular,Sparse irregular,reverse_gc_level_detected_5pct,50,3,0.06,0.02061497034897397,0.16217091688838173
-sparse_irregular,Sparse irregular,reverse_gc_change_detected_5pct,50,5,0.1,0.04347576493189041,0.21360231437479654
-sparse_irregular,Sparse irregular,reverse_gc_level_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_irregular,Sparse irregular,reverse_gc_change_degenerate,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_irregular,Sparse irregular,tdmi_level_exact_plus_1_recovered,50,5,0.1,0.04347576493189041,0.21360231437479654
-sparse_irregular,Sparse irregular,tdmi_change_exact_plus_1_recovered,50,21,0.42,0.2937500335471198,0.5576655823142176
-sparse_irregular,Sparse irregular,tdmi_level_direct_peak_at_window_boundary,50,9,0.18,0.09770192670234178,0.30796053674300783
-sparse_irregular,Sparse irregular,tdmi_change_direct_peak_at_window_boundary,50,22,0.44,0.3116219921125717,0.5769397197834315
-sparse_irregular,Sparse irregular,tdmi_level_global_peak_at_scan_boundary,50,1,0.02,0.003539259271646236,0.10495443589637815
-sparse_irregular,Sparse irregular,tdmi_change_global_peak_at_scan_boundary,50,0,0.0,6.938893903907228e-18,0.07134759913335872
-sparse_irregular,Sparse irregular,parametric_positive_MAE_gain,50,50,1.0,0.9286524008666414,1.0
-sparse_irregular,Sparse irregular,nonparametric_positive_MAE_gain,50,46,0.92,0.8116175308165717,0.968450485911407
+dense_periodic,Dense periodic,profile_converged,50,50,1.0,1.0,1.0
+sparse_periodic,Sparse periodic,profile_converged,50,50,1.0,1.0,1.0
+sparse_irregular,Sparse irregular,profile_converged,50,50,1.0,1.0,1.0
+dense_periodic,Dense periodic,parametric_positive_MAE_gain,50,50,1.0,1.0,1.0
+sparse_periodic,Sparse periodic,parametric_positive_MAE_gain,50,49,0.98,0.9411939798484823,1.0
+sparse_irregular,Sparse irregular,parametric_positive_MAE_gain,50,50,1.0,1.0,1.0
+dense_periodic,Dense periodic,nonparametric_positive_MAE_gain,50,46,0.92,0.8448013617144566,0.9951986382855434
+sparse_periodic,Sparse periodic,nonparametric_positive_MAE_gain,50,43,0.86,0.7638201018923393,0.9561798981076607
+sparse_irregular,Sparse irregular,nonparametric_positive_MAE_gain,50,40,0.8,0.6891256567099494,0.9108743432900507
+dense_periodic,Dense periodic,"AIC-primary forward GC rejection (change, 5%)",50,50,1.0,1.0,1.0
+dense_periodic,Dense periodic,"AIC-primary reverse GC rejection (change, 5%)",50,1,0.02,0.0,0.05880602015151773
+sparse_irregular,Sparse irregular,"AIC-primary forward GC rejection (change, 5%)",50,50,1.0,1.0,1.0
+sparse_irregular,Sparse irregular,"AIC-primary reverse GC rejection (change, 5%)",50,5,0.1,0.016844242532462014,0.18315575746753798
+sparse_periodic,Sparse periodic,"AIC-primary forward GC rejection (change, 5%)",50,50,1.0,1.0,1.0
+sparse_periodic,Sparse periodic,"AIC-primary reverse GC rejection (change, 5%)",50,0,0.0,0.0,0.0
