@@ -1,2 +1,0 @@
-source_workbook,source_sheet,observed_ticker,warning
-25B - all currencies diff tenors.xlsx,1W,USDJPY25R1W BGN Curncy,Misfiled 1W 25R ticker; excluded from butterfly data.
