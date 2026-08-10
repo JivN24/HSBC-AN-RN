@@ -5,8 +5,9 @@ Major internal hourly outage,New hourly midpoint,High,Observed,"Hourly observati
 Supplied-return-across-gap risk,New hourly midpoint,High,Flagged,Do not use supplied return; recompute only across adjacent observations in Notebook 15.
 Hourly timestamp timezone,New hourly midpoint,Low,Resolved from source strings,Strings include +00:00 and are parsed as UTC.
 Hourly OHLC / spread integrity,New hourly midpoint and bid/ask files,High,Audited,OHLC violations and negative/zero spreads are reported. Invalid crossed quotes must be explicitly excluded or handled before primary return/RV construction.
-1D ATM quote cut/timezone,ATM workbook,High,Unresolved,Retain as an alignment limitation; do not invent a fixing time.
-1D ATM quote scale / annualisation,ATM workbook,High,Unresolved,Raw quoted-volatility scale must not simply be squared. Establish scale and annualisation/day-count convention before comparing annualised implied variance or one-day total variance with RV.
+1D ATM quote cut/timezone,Bloomberg ATM PX_LAST,High,Partially resolved,"Ticker, field and percent-quote interpretation are known; exact daily snapshot/fixing time, timezone and horizon-date label remain unresolved. Do not invent a fixing time."
+1D ATM horizon / total-variance convention,Bloomberg ATM PX_LAST,High,Unresolved,"`(q/100)^2` is a clean annualised variance-rate representation, but total variance requires unresolved overnight horizon/day-count, weekend and holiday conventions. Do not assume 1/252 or 1/365."
+Extraction reproducibility metadata,Dukascopy / Bloomberg,Medium,Partially unresolved,Dukascopy download version was not captured; Bloomberg overrides do not document snapshot time or overnight-expiry/day-count metadata.
 Long 1D ATM date gaps,ATM workbook,Medium,Audited,305 gaps exceed a standard weekend; maximum 21 days. Do not carry events forward arbitrarily over long quote gaps.
 Daily spot cut,Legacy daily workbook,Medium,Unresolved,Use only as supplementary cross-check unless reliable metadata is supplied.
 BoJ local-date / UTC-date conversion,Dedicated BoJ calendar,Medium,Diagnosed,89 rows change calendar date after full JST-to-UTC conversion; retain both dates.

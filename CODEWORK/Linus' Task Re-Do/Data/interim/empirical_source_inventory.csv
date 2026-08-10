@@ -1,8 +1,8 @@
 source_name,path,file_type,size_bytes,sheets,intended_role,status
-usdjpy_hourly_mid.csv,Data\usdjpy_hourly_data\usdjpy_hourly_mid.csv,CSV,17122983.0,,Primary intraday USDJPY midpoint source,Primary
+usdjpy_hourly_mid.csv,Data\usdjpy_hourly_data\usdjpy_hourly_mid.csv,CSV,17122983.0,,Primary native Dukascopy 1-hour USDJPY midpoint candles,Primary
 usdjpy_hourly_bid.csv,Data\usdjpy_hourly_data\usdjpy_hourly_bid.csv,CSV,9762180.0,,Bid-side cross-check for hourly midpoint,Supplementary / audit
 usdjpy_hourly_ask.csv,Data\usdjpy_hourly_data\usdjpy_hourly_ask.csv,CSV,9759772.0,,Ask-side cross-check for hourly midpoint,Supplementary / audit
-ATM volatility workbook,Data\ATM_Volatility_-_all_currencies_diff_tenors.xlsx,XLSX,11992684.0,"1D, 1W, 2W, 1M, 2M, 3M, 6M, 1Y",USDJPY 1D / overnight ATM IV (and other tenors),Primary
+ATM volatility workbook,Data\ATM_Volatility_-_all_currencies_diff_tenors.xlsx,XLSX,11992684.0,"1D, 1W, 2W, 1M, 2M, 3M, 6M, 1Y",Bloomberg PX_LAST for USDJPYVON BGN Curncy; primary USDJPY 1D/overnight ATM IV,Primary
 G10 macro calendar,Data\G10_events_merged_1997-2026.csv,CSV,5339382.0,,USD and JPY scheduled macro events,Primary
 Dedicated BoJ calendar,Data\boj_monetary_policy_meetings_2015_2026.csv,CSV,7625.0,,BoJ meeting-date/timezone cross-check; not primary release timestamp,Supplementary / audit
 Daily bid/ask/last workbook,Data\Currency Daily BidAskLast.xlsx,XLSX,3673167.0,Sheet1,Supplementary daily USDJPY cross-check,Supplementary / audit
