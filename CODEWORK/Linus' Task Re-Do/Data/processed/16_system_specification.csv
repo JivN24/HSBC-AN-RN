@@ -1,4 +1,3 @@
-RUN_ID,equation,target,mean_structure,mean_parameter,volatility_state,volatility_link,delta_t,shock,shock_variance,forecast_role,history_order,innovation
-2026-08-11T02:29:19.042796+00:00,spot_return,within_session_log_return,constant,mu,realised_variance_ann_252,sqrt,1/252,epsilon,1/252,observation_distribution,,
-2026-08-11T02:29:19.042796+00:00,realised_variance,realised_variance_ann_252,,,,,,,,dynamic_background,1.0,u_R = nu_tilde * eta
-2026-08-11T02:29:19.042796+00:00,implied_variance,implied_variance_ann,,,,,,,,dynamic_background,16.0,u_I = nu * zeta
+RUN_ID,equation,target,selected_order,retained_predictor_blocks,iv_specification,iv_column,benchmark_only,primary_specification
+2026-08-13T02:38:21.454662+00:00,realised_variance,realised_variance_ann_252,1,I_to_R,WEEKDAY_NORM_IV,iv_model_var,False,True
+2026-08-13T02:38:21.454662+00:00,implied_variance,implied_variance_ann,12,Q_to_I; R_to_I,WEEKDAY_NORM_IV,iv_model_var,False,True
