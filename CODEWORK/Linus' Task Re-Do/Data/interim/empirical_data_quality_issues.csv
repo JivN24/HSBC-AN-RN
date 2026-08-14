@@ -1,0 +1,21 @@
+Issue,Source,Severity,Status,Consequence / planned handling
+Hourly sampling gaps,New hourly midpoint,Medium,Classified,978 expected Friday-to-Sunday/Monday closures; 127 short weekday/other gaps; 1 major break(s) >7 days. Enforce adjacency in Notebook 15.
+Populated weekend / stale timestamps,New hourly midpoint,Medium,Observed,"Weekend timestamps account for 8.1% of all rows; Saturday adjacent-hour unchanged quotes are 99.6% overall and Sunday adjacent-hour unchanged quotes are 50.1% overall; materially populated weekend years are 2010, 2011, 2012, 2013, 2014. Later construction must avoid treating carry-forward weekend quotes as genuine trading-hour intervals."
+Major internal hourly outage,New hourly midpoint,High,Observed,"Hourly observations are absent across 2010-01-01 00:00 UTC to 2010-10-01 10:00 UTC (273.4 days). Do not bridge this interval when constructing returns, realised variance, or lags."
+Supplied-return-across-gap risk,New hourly midpoint,High,Flagged,Do not use supplied return; recompute only across adjacent observations in Notebook 15.
+Hourly timestamp timezone,New hourly midpoint,Low,Resolved from source strings,Strings include +00:00 and are parsed as UTC.
+Hourly OHLC / spread integrity,New hourly midpoint and bid/ask files,High,Audited,OHLC violations and negative/zero spreads are reported. Invalid crossed quotes must be explicitly excluded or handled before primary return/RV construction.
+1D ATM quote cut/timezone,Bloomberg ATM PX_LAST,High,Partially resolved,"Ticker, field and percent-quote interpretation are known; exact daily snapshot/fixing time, timezone and horizon-date label remain unresolved. Do not invent a fixing time."
+1D ATM horizon / total-variance convention,Bloomberg ATM PX_LAST,High,Unresolved,"`(q/100)^2` is a clean annualised variance-rate representation, but total variance requires unresolved overnight horizon/day-count, weekend and holiday conventions. Do not assume 1/252 or 1/365."
+Extraction reproducibility metadata,Dukascopy / Bloomberg,Medium,Partially unresolved,Dukascopy download version was not captured; Bloomberg overrides do not document snapshot time or overnight-expiry/day-count metadata.
+Long 1D ATM date gaps,ATM workbook,Medium,Audited,306 gaps exceed a standard weekend; maximum 10575 days. Do not carry events forward arbitrarily over long quote gaps.
+Daily spot cut,Legacy daily workbook,Medium,Unresolved,Use only as supplementary cross-check unless reliable metadata is supplied.
+BoJ local-date / UTC-date conversion,Dedicated BoJ calendar,Medium,Diagnosed,89 rows change calendar date after full JST-to-UTC conversion; retain both dates.
+BoJ timestamp-source hierarchy,Dedicated BoJ and Bloomberg G10,Medium,Clarified,Dedicated calendar is a meeting-date/timezone cross-check; Bloomberg G10 BOJ Target Rate remains the primary empirical release timestamp unless source documentation changes this.
+Bad / crossed quotes,New and legacy bid/ask,Medium,Reported,No quote cleaning is performed in this audit.
+Event datetime parsing,G10 event calendar,Low,Diagnosed,Use parsed UTC timestamps and retain any unparseable raw records for review.
+Bloomberg-derived relevance / surprise_z,G10 Bloomberg export,High,Construction unresolved,Definitions are not documented in supplied data. Do not treat as transparent modelling/OOS inputs; isolate post-announcement fields from pre-event forecasts.
+Missing observations,All primary sources,Medium,Diagnosed,Notebook 15 must apply documented availability and adjacency rules.
+RR/BF not currently required,25R/25B workbooks,Low,Intentional exclusion,Inventory only; current empirical workflow is ATM 1D.
+25B 1W ticker anomaly,25B workbook,High,QUARANTINED,1W BF sheet appears to carry 25R1W-style tickers; quarantined pending source resolution.
+Equation (5),Volatility surface,Low,Intentional exclusion,No surface interpolation is implemented.

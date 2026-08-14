@@ -1,0 +1,13 @@
+source_name,path,file_type,size_bytes,sheets,intended_role,status
+usdjpy_hourly_mid.csv,Data\usdjpy_hourly_data\usdjpy_hourly_mid.csv,CSV,17122983.0,,Primary native Dukascopy 1-hour USDJPY midpoint candles,Primary
+usdjpy_hourly_bid.csv,Data\usdjpy_hourly_data\usdjpy_hourly_bid.csv,CSV,9762180.0,,Bid-side cross-check for hourly midpoint,Supplementary / audit
+usdjpy_hourly_ask.csv,Data\usdjpy_hourly_data\usdjpy_hourly_ask.csv,CSV,9759772.0,,Ask-side cross-check for hourly midpoint,Supplementary / audit
+ATM volatility workbook,Data\ATM_Volatility_-_all_currencies_diff_tenors.xlsx,XLSX,10396096.0,"Overnight, 1W, 2W, 1M, 2M, 3M, 6M, 1Y",Bloomberg PX_LAST for USDJPYVON BGN Curncy; primary USDJPY 1D/overnight ATM IV,Primary
+G10 macro calendar,Data\G10_events_merged_1997-2026.csv,CSV,5339382.0,,USD and JPY scheduled macro events,Primary
+Dedicated BoJ calendar,Data\boj_monetary_policy_meetings_2015_2026.csv,CSV,7625.0,,BoJ meeting-date/timezone cross-check; not primary release timestamp,Supplementary / audit
+Daily bid/ask/last workbook,Data\Currency Daily BidAskLast.xlsx,XLSX,3673167.0,Sheet1,Supplementary daily USDJPY cross-check,Supplementary / audit
+Legacy hourly bid/ask/last workbook,Data\Currency Hourly BidAskLast.xlsx,XLSX,2267715.0,Sheet1,Supplementary hourly USDJPY cross-check,Supplementary / audit
+25R workbook,Data\25R - all currencies diff tenors.xlsx,XLSX,5050212.0,"1M, 3M, 6M, 1Y",Broader options dataset; not required for ATM 1D workflow,Supplementary / inventory only
+25B workbook,Data\25B - all currencies diff tenors.xlsx,XLSX,4597752.0,"1W, 1M, 3M, 6M",Broader options dataset; not required for ATM 1D workflow,Supplementary / inventory only
+usdjpy_15min_data/,Data\usdjpy_15min_data,Directory,,,Explicitly excluded from current workflow,Excluded
+USD_JPY_intraday15min.ipynb,Data\USD_JPY_intraday15min.ipynb,Notebook,41388.0,,Explicitly excluded from current workflow,Excluded

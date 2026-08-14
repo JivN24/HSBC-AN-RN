@@ -1,0 +1,13 @@
+method,transformation,direction,statistic_column,calibration_seed_count,threshold,quantile,calibration_partition
+Lagged correlation,levels,forward,forward_statistic,250,0.039427652594911884,0.95,calibration
+Lagged correlation,levels,reverse,reverse_statistic,250,0.04133709103284189,0.95,calibration
+Lagged correlation,changes,forward,forward_statistic,250,0.13970926562140762,0.95,calibration
+Lagged correlation,changes,reverse,reverse_statistic,250,0.13954648008876652,0.95,calibration
+TDMI,levels,forward,forward_statistic,250,0.030905706199581124,0.95,calibration
+TDMI,levels,reverse,reverse_statistic,250,0.03173357652437972,0.95,calibration
+TDMI,changes,forward,forward_statistic,250,0.039788816318598035,0.95,calibration
+TDMI,changes,reverse,reverse_statistic,250,0.03968823026693731,0.95,calibration
+Transfer entropy,levels,forward,forward_statistic,250,0.018606549522364808,0.95,calibration
+Transfer entropy,levels,reverse,reverse_statistic,250,0.008801734121768668,0.95,calibration
+Transfer entropy,changes,forward,forward_statistic,250,0.03250562015440718,0.95,calibration
+Transfer entropy,changes,reverse,reverse_statistic,250,0.016597015597043137,0.95,calibration
