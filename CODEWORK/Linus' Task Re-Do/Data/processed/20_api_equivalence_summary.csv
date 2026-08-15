@@ -1,0 +1,31 @@
+component,reference_notebook,comparison,n_compared,max_abs_difference,tolerance,passed,notes
+selected_n,N16,selected R history order,1,0.0,0.0,True,selected R history order
+selected_m,N16,selected I history order,1,0.0,0.0,True,selected I history order
+retain_Q_to_R,N16,retained directed-edge flag,1,0.0,0.0,True,retained directed-edge flag
+retain_I_to_R,N16,retained directed-edge flag,1,0.0,0.0,True,retained directed-edge flag
+retain_Q_to_I,N16,retained directed-edge flag,1,0.0,0.0,True,retained directed-edge flag
+retain_R_to_I,N16,retained directed-edge flag,1,0.0,0.0,True,retained directed-edge flag
+validation_R_raw_forecast,N17,R_PRIMARY_AR1_IV; fixed_train; one-to-one raw_forecast,1181,9.974659986866641e-17,1e-10,True,R_PRIMARY_AR1_IV; fixed_train; one-to-one raw_forecast
+validation_I_raw_forecast,N17,I_PRIMARY_FULL_12; fixed_train; one-to-one raw_forecast,1087,1.6861512186494565e-15,1e-10,True,I_PRIMARY_FULL_12; fixed_train; one-to-one raw_forecast
+test_R_raw_forecast,N17,R_PRIMARY_AR1_IV; fixed_train_validation; one-to-one raw_forecast,1182,9.974659986866641e-17,1e-10,True,R_PRIMARY_AR1_IV; fixed_train_validation; one-to-one raw_forecast
+test_I_raw_forecast,N17,I_PRIMARY_FULL_12; fixed_train_validation; one-to-one raw_forecast,1071,2.400857290751901e-15,1e-10,True,I_PRIMARY_FULL_12; fixed_train_validation; one-to-one raw_forecast
+occurrence_identity,N18,"event label, model day, and target",552,0.0,0.0,True,"event label, model day, and target"
+equation_eligibility,N18,target-specific eventless support,552,0.0,0.0,True,target-specific eventless support
+background_positivity,N18,strict positive raw background,552,0.0,0.0,True,strict positive raw background
+defined_status,N18,undefined status,552,0.0,0.0,True,undefined status
+undefined_reason,N18,reason code,552,0.0,0.0,True,reason code
+raw_background_forecast,N18,"all eligible finite raw backgrounds, including non-positive",525,9.8879238130678e-17,1e-10,True,"all eligible finite raw backgrounds, including non-positive"
+response_ratio,N18,defined event response ratios,522,3.552713678800501e-15,1e-10,True,defined event response ratios
+selected_configurations,N19,selected configuration IDs,8,0.0,0.0,True,selected configuration IDs
+fixed_epochs,N19,neural final fixed epochs,8,0.0,0.0,True,neural final fixed epochs
+test_background_forecast,N19,one-to-one N19 test backgrounds,8532,1.0408340855860843e-16,1e-06,True,one-to-one N19 test backgrounds
+occurrence_identity,N19,"event label, model day, target, and model",2208,0.0,0.0,True,"event label, model day, target, and model"
+equation_eligibility,N19,common-36 eligibility,2208,0.0,0.0,True,common-36 eligibility
+background_positivity,N19,strict positive background,2208,0.0,0.0,True,strict positive background
+defined_status,N19,undefined status,2208,0.0,0.0,True,undefined status
+undefined_reason,N19,reason code,2208,0.0,0.0,True,reason code
+event_actual_values,N19,matched event actual values,2208,0.0,1e-12,True,matched event actual values
+background_forecast,N19,all eligible finite event backgrounds,2008,6.155870632684746e-09,1e-06,True,all eligible finite event backgrounds
+response_ratio_internal_N20,N19,N20 ratio equals actual / raw background,2008,0.0,1e-12,True,N20 ratio equals actual / raw background
+response_ratio_internal_N19,N19,N19 ratio equals actual / raw background,2008,3.694822225952521e-13,1e-12,True,N19 ratio equals actual / raw background
+response_ratio_background_propagation,N19,cross-notebook ratio difference explained by background difference,2008,3.7170537576180183e-13,1e-12,True,cross-notebook ratio difference explained by background difference

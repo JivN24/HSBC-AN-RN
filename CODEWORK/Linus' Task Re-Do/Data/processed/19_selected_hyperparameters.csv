@@ -1,0 +1,11 @@
+target,model_family,model_role,candidate_count,selected_config,selected_hyperparameters,final_fixed_epochs
+R,LINEAR_36,MATCHED_LINEAR,1,OLS,OLS intercept; 36 raw predictors,
+R,RANDOM_FOREST,FLEXIBLE_MODEL,4,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",
+R,GRADIENT_BOOSTING,FLEXIBLE_MODEL,4,GB_02,"{'n_estimators': 200, 'learning_rate': 0.05}",
+R,MLP,FLEXIBLE_MODEL,4,MLP_04,"([32, 16], 0.0003)",143.0
+R,TRANSFORMER,FLEXIBLE_MODEL,4,TR_01,"((16, 2, 32), 0.001)",52.0
+I,N18_LINEAR36,BENCHMARK,1,OLS,OLS intercept; 36 raw predictors,
+I,RANDOM_FOREST,FLEXIBLE_MODEL,4,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",
+I,GRADIENT_BOOSTING,FLEXIBLE_MODEL,4,GB_02,"{'n_estimators': 200, 'learning_rate': 0.05}",
+I,MLP,FLEXIBLE_MODEL,4,MLP_03,"([32, 16], 0.001)",77.0
+I,TRANSFORMER,FLEXIBLE_MODEL,4,TR_03,"((24, 4, 48), 0.001)",19.0

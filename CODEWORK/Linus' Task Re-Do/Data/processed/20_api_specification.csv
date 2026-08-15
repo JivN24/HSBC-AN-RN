@@ -1,0 +1,17 @@
+item,value,section
+scope,canonical USDJPY empirical system,API
+states,"Q,R,I",API
+n_m_discovery,N16 BIC order scan plus selected-order GC,API
+flexible_information,12 lags and 36 features,API
+lag_rule,lags before masking,API
+eventless_interpretation,conditional on actual observed history,API
+event_history,historical occurrence mask,API
+evaluation_events,full-identity subset of event_history,API
+step2,TRAIN to VALIDATION; TRAIN+VALIDATION to TEST,API
+parametric_eligibility,target specific,API
+neural,"seeds 19,119,219; MLP none; Transformer max_norm=1.0",API
+denominator,strict positive; no repair,API
+reuse,specifications reusable; all fitted parameters/scalers refit,API
+pooling,stage-specific; TRAIN diagnostics never pooled with VALIDATION/TEST OOS weights,API
+TEST_tuning,none,API
+equivalence,N16-N19 required,API
