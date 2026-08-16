@@ -1,17 +1,17 @@
 item,value,section
-scope,canonical USDJPY empirical system,API
-states,"Q,R,I",API
-n_m_discovery,N16 BIC order scan plus selected-order GC,API
-flexible_information,12 lags and 36 features,API
-lag_rule,lags before masking,API
-eventless_interpretation,conditional on actual observed history,API
-event_history,historical occurrence mask,API
-evaluation_events,full-identity subset of event_history,API
-step2,TRAIN to VALIDATION; TRAIN+VALIDATION to TEST,API
-parametric_eligibility,target specific,API
-neural,"seeds 19,119,219; MLP none; Transformer max_norm=1.0",API
+event_alignment_version,TARGET_SPECIFIC_NY_CUT_1000_ET,API
+event_alignment_source,NOTEBOOK_18,API
+alignment_audit,18A_iv_event_alignment_audit.ipynb,API
+alignment_selection_sample,TRAIN_ONLY,API
+realised_event_day_field,realised_model_day,API
+implied_event_day_field,implied_model_day,API
+target_day_field,target_model_day,API
+bloomberg_snapshot_time_identified,False,API
+iv_specification,WEEKDAY_NORM_IV,API
+iv_column,iv_model_var,API
+n_m,n=1; m=12,API
+eventless_history,lags before target-specific masks,API
 denominator,strict positive; no repair,API
-reuse,specifications reusable; all fitted parameters/scalers refit,API
-pooling,stage-specific; TRAIN diagnostics never pooled with VALIDATION/TEST OOS weights,API
-TEST_tuning,none,API
-equivalence,N16-N19 required,API
+ordinary_ratios,VALIDATION future discovery calibration; TEST OOS diagnostics only,API
+pooling,stage-safe,API
+reuse,all models and scalers refit,API
