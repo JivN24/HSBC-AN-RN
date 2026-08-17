@@ -1,9 +1,9 @@
 record_type,target,calibration_stage,N,SSR,residual_standard_error_conventional,residual_scale_mle,stage,base_eligible_N,eligible_target_event_N_removed,eventless_calibration_N,fraction_retained,target_event_day_definition
 residual_scale,R,TRAIN,2321.0,0.5810646810533207,0.01583271970940561,0.015822484139080717,,,,,,
-residual_scale,I,TRAIN,1706.0,0.3130602920559097,0.013695750152234102,0.013546418223708565,,,,,,
+residual_scale,I,TRAIN,1704.0,0.3940441243778364,0.015374628411345246,0.015206792951340118,,,,,,
 residual_scale,R,TRAIN_PLUS_VALIDATION,3240.0,0.6119146662970317,0.013749094011178152,0.013742727215740125,,,,,,
-residual_scale,I,TRAIN_PLUS_VALIDATION,2550.0,0.34135704211134565,0.011654890270398092,0.011570026219085747,,,,,,
+residual_scale,I,TRAIN_PLUS_VALIDATION,2547.0,0.4145878127606152,0.012852020362365888,0.012758328884799573,,,,,,
 calibration_support,R,,,,,,TRAIN,3005.0,684.0,2321.0,0.7723793677204659,realised_model_day
-calibration_support,I,,,,,,TRAIN,2226.0,520.0,1706.0,0.766397124887691,implied_model_day
+calibration_support,I,,,,,,TRAIN,2226.0,522.0,1704.0,0.7654986522911051,implied_model_day
 calibration_support,R,,,,,,TRAIN_PLUS_VALIDATION,4186.0,946.0,3240.0,0.7740086000955566,realised_model_day
-calibration_support,I,,,,,,TRAIN_PLUS_VALIDATION,3313.0,763.0,2550.0,0.7696951403561727,implied_model_day
+calibration_support,I,,,,,,TRAIN_PLUS_VALIDATION,3313.0,766.0,2547.0,0.768789616661636,implied_model_day

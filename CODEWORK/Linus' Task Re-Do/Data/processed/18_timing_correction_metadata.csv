@@ -1,0 +1,11 @@
+field,value
+iv_security,USDJPYVON
+iv_source,Bloomberg BGN
+iv_tenor,ON
+iv_pricing_hours_ny,17:00-16:59
+iv_daily_observation_interpretation,END_OF_BLOOMBERG_PRICING_DAY_STATE
+event_alignment_method,SAME_EMPIRICAL_MODEL_DAY_AS_EVENT
+approximate_10am_iv_cut_used_for_production,False
+linus_equation_5_used,False
+prior_alignment_status,Previously used target-specific implied-day shifts are superseded for production by verified Bloomberg pricing-hours metadata.
+edge_1659_to_1700_occurrences,0
