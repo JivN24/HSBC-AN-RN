@@ -1,0 +1,31 @@
+component,reference_notebook,comparison,n_compared,max_abs_difference,tolerance,passed,notes
+n,N16,order,1,0.0,0.0,True,order
+m,N16,order,1,0.0,0.0,True,order
+retain_Q_to_R,N16,edge,1,0.0,0.0,True,edge
+retain_I_to_R,N16,edge,1,0.0,0.0,True,edge
+retain_Q_to_I,N16,edge,1,0.0,0.0,True,edge
+retain_R_to_I,N16,edge,1,0.0,0.0,True,edge
+validation_R,N17,ordinary forecasts,1181,9.974659986866641e-17,1e-10,True,ordinary forecasts
+validation_I,N17,ordinary forecasts,1087,1.6861512186494565e-15,1e-10,True,ordinary forecasts
+test_R,N17,ordinary forecasts,1182,9.974659986866641e-17,1e-10,True,ordinary forecasts
+test_I,N17,ordinary forecasts,1071,2.400857290751901e-15,1e-10,True,ordinary forecasts
+mapping,N18,target-specific mapping,2828,0.0,0.0,True,target-specific mapping
+event_key,N18,target event key,551,0.0,0.0,True,target event key
+eligibility,N18,support,551,0.0,0.0,True,support
+background,N18,parametric background,524,9.8879238130678e-17,1e-10,True,parametric background
+weight,N18,parametric weight,514,3.552713678800501e-15,1e-10,True,parametric weight
+configs,N19,full selections,8,0.0,0.0,True,full selections
+epochs,N19,frozen epochs,8,0.0,0.0,True,frozen epochs
+test_forecast,N19,test flexible forecasts,2004,6.155870632684746e-09,1e-06,True,test flexible forecasts
+event_key,N19,target event key,2204,0.0,0.0,True,target event key
+event_actual,N19,event actual values,2004,0.0,1e-12,True,event actual values
+event_background,N19,event background forecasts,2004,6.155870632684746e-09,1e-06,True,event background forecasts
+event_weight_api_identity,N20,N20 event weight = actual/background,2004,0.0,1e-12,True,N20 event weight = actual/background
+event_weight_ref_identity,N19,N19 event weight = actual/background,2004,3.694822225952521e-13,1e-12,True,N19 event weight = actual/background
+event_weight_propagation,N19,event-weight difference explained by background propagation,2004,3.7170537576180183e-13,1e-12,True,event-weight difference explained by background propagation
+ordinary_key,N19,ordinary rows,13356,0.0,0.0,True,ordinary rows
+ordinary_actual,N19,ordinary actual values,13351,0.0,1e-12,True,ordinary actual values
+ordinary_background,N19,ordinary background forecasts,13356,1.0408340855860843e-16,1e-06,True,ordinary background forecasts
+ordinary_ratio_api_identity,N20,N20 ordinary ratio = actual/background,13351,0.0,1e-12,True,N20 ordinary ratio = actual/background
+ordinary_ratio_ref_identity,N19,N19 ordinary ratio = actual/background,13351,6.409095476556104e-12,1e-11,True,N19 ordinary ratio = actual/background
+ordinary_ratio_propagation,N19,ordinary-ratio difference explained by background propagation,13351,6.418961909336356e-12,1e-11,True,ordinary-ratio difference explained by background propagation

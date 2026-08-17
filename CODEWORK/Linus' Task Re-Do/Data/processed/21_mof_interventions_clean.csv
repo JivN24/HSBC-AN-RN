@@ -1,0 +1,11 @@
+intervention_date,amount_100m_yen,currency_direction,source_row_number,standardised_currency_direction,mapped_model_day,mapped_canonical_index,mapping_status,new_campaign,campaign_number,campaign_id
+2022-09-22,28382,the US dollar (sold) the Japanese yen (bought),517,USD_SOLD_JPY_BOUGHT,2022-09-22,5058,EXACT_SAME_LABELLED_MODEL_DAY,True,1,MOF_CAMPAIGN_01
+2022-10-21,56202,the US dollar (sold) the Japanese yen (bought),519,USD_SOLD_JPY_BOUGHT,2022-10-21,5079,EXACT_SAME_LABELLED_MODEL_DAY,True,2,MOF_CAMPAIGN_02
+2022-10-24,7296,the US dollar (sold) the Japanese yen (bought),520,USD_SOLD_JPY_BOUGHT,2022-10-24,5080,EXACT_SAME_LABELLED_MODEL_DAY,False,2,MOF_CAMPAIGN_02
+2024-04-29,59185,the US dollar (sold) the Japanese yen (bought),527,USD_SOLD_JPY_BOUGHT,2024-04-29,5475,EXACT_SAME_LABELLED_MODEL_DAY,True,3,MOF_CAMPAIGN_03
+2024-05-01,38700,the US dollar (sold) the Japanese yen (bought),528,USD_SOLD_JPY_BOUGHT,2024-05-01,5477,EXACT_SAME_LABELLED_MODEL_DAY,False,3,MOF_CAMPAIGN_03
+2024-07-11,31678,the US dollar (sold) the Japanese yen (bought),530,USD_SOLD_JPY_BOUGHT,2024-07-11,5528,EXACT_SAME_LABELLED_MODEL_DAY,True,4,MOF_CAMPAIGN_04
+2024-07-12,23670,the US dollar (sold) the Japanese yen (bought),531,USD_SOLD_JPY_BOUGHT,2024-07-12,5529,EXACT_SAME_LABELLED_MODEL_DAY,False,4,MOF_CAMPAIGN_04
+2026-04-30,62787,the US dollar (sold) the Japanese yen (bought),539,USD_SOLD_JPY_BOUGHT,2026-04-30,5998,EXACT_SAME_LABELLED_MODEL_DAY,True,5,MOF_CAMPAIGN_05
+2026-05-04,7802,the US dollar (sold) the Japanese yen (bought),540,USD_SOLD_JPY_BOUGHT,2026-05-04,6000,EXACT_SAME_LABELLED_MODEL_DAY,False,5,MOF_CAMPAIGN_05
+2026-05-06,46759,the US dollar (sold) the Japanese yen (bought),541,USD_SOLD_JPY_BOUGHT,2026-05-06,6002,EXACT_SAME_LABELLED_MODEL_DAY,False,5,MOF_CAMPAIGN_05

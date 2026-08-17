@@ -1,0 +1,13 @@
+RUN_ID,field,value
+2026-08-13T00:18:55.237723+00:00,weekday_reference_sample_frozen,True
+2026-08-13T00:18:55.237723+00:00,weekday_reference_sample_primary,ALL_TRAIN
+2026-08-13T00:18:55.237723+00:00,weekday_reference_sample_robustness,EXCL_POLICY
+2026-08-13T00:18:55.237723+00:00,iv_raw_column,iv_ann_var
+2026-08-13T00:18:55.237723+00:00,iv_canonical_model_column,iv_model_var
+2026-08-13T00:18:55.237723+00:00,iv_canonical_model_definition,weekday-normalised raw implied variance using ALL_TRAIN training-period median weekday factors
+2026-08-13T00:18:55.237723+00:00,units_changed,False
+2026-08-13T00:18:55.237723+00:00,event_dates_removed,False
+2026-08-13T00:18:55.237723+00:00,event_alignment_changed,False
+2026-08-13T00:18:55.237723+00:00,realised_variance_changed,False
+2026-08-13T00:18:55.237723+00:00,notebook_15_ready_to_freeze,True
+2026-08-13T00:18:55.237723+00:00,notebook_16_requires_rerun,True
