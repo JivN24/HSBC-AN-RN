@@ -1,0 +1,7 @@
+target,split,raw_split_n,common_structure_support_n,finite_target_required,finite_all_QRI_lags_1_12_required,event_mask_applied,lags_built_before_split_filter,selection_support_evaluated
+R,train,3626,2200.0,True,True,False,True,True
+R,validation,1209,1078.0,True,True,False,True,True
+R,test,1209,,False,False,False,True,False
+I,train,3626,2226.0,True,True,False,True,True
+I,validation,1209,1087.0,True,True,False,True,True
+I,test,1209,,False,False,False,True,False

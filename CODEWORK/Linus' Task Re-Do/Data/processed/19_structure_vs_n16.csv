@@ -1,0 +1,7 @@
+row_type,target,candidate_source,N16_GC_retain,N16_TDMI_summary,N16_selected_lag_order,RF_retain,RF_selected_lag_order,GB_retain,GB_selected_lag_order,MLP_retain,MLP_selected_lag_order,TRANSFORMER_retain,TRANSFORMER_selected_lag_order
+EDGE,R,Q,False,support=True; peak_lag=1; train_value=0.0623707; validation_p=0.000999001,,False,,False,,False,,False,
+EDGE,R,I,True,support=True; peak_lag=1; train_value=0.308911; validation_p=0.000999001,,True,,True,,True,,True,
+EDGE,I,Q,True,support=True; peak_lag=1; train_value=0.0869761; validation_p=0.000999001,,False,,False,,True,,True,
+EDGE,I,R,True,support=True; peak_lag=1; train_value=0.279067; validation_p=0.000999001,,False,,False,,False,,True,
+LAG_ORDER,R,OWN_HISTORY_ORDER,,,1.0,,1.0,,2.0,,1.0,,1.0
+LAG_ORDER,I,OWN_HISTORY_ORDER,,,12.0,,2.0,,2.0,,4.0,,5.0
