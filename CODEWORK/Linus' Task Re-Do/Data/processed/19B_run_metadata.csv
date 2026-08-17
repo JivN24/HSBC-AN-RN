@@ -1,0 +1,79 @@
+section,item,value,RUN_ID
+FROZEN_DESIGN,model_day_rule,"[D-1 17:00 America/New_York, D 17:00 America/New_York), DST-aware",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,state_Q,within_session_log_return^2,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,state_R,252 * rv_within,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,state_I,iv_model_var (weekday-normalised implied variance),2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,split_rule,chronological 60/20/20 from sample_split in the Notebook 16 panel,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,split_TRAIN,2003-05-05 to 2017-03-27,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,split_VALIDATION,2017-03-28 to 2021-11-12,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,split_TEST,2021-11-15 to 2026-07-02,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,history_orders,"n=1, m=12",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,retained_linear_blocks,"I->R, Q->I, R->I retained; Q->R not retained",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,event_alignment,"TARGET_SPECIFIC_NY_CUT_1000_ET; R on realised_model_day, I on implied_model_day",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,event_families,FOMC | US Employment | US CPI | BoJ | JPY National CPI | JPY GDP,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,eventless_rule,target-specific event days masked from the fitting sample; lags built before masking,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,event_weight_identity,actual / raw eventless background forecast; strict positive denominator; no repair,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,bootstrap,"10,000 non-parametric occurrence resamples; percentile intervals on the median; seed 19",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_sparse_information_set,"R_lag1, I_lag1",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_har_information_set,"R_lag1, R_har5, R_har22, I_lag1",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_grids,"RF_GRID, GB_GRID, MLP_GRID, TR_GRID unchanged from Notebook 19",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_seeds,"19,119,219",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_epoch_rule,median of per-seed best-VALIDATION epochs,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_selected_configs,"{""GB_SPARSE"": ""GB_01"", ""MLP_SPARSE"": ""MLP_03"", ""RF_SPARSE"": ""RF_04"", ""TRANSFORMER_SPARSE"": ""TR_01""}",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_frozen_epochs,"{""MLP_SPARSE"": 84, ""TRANSFORMER_SPARSE"": 102}",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A1_sparse_transformer_tokenisation,"one token per (state, lag); forced, a single lag leaves no 12-step sequence",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A2_dm_loss_functions,squared error and QLIKE,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A2_dm_variance,"Newey-West HAC, automatic bandwidth floor(4*(n/100)^(2/9))",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A3_implied_primary_background,"TRANSFORMER, on pre-frozen ordinary-VALIDATION RMSE plus 100 percent positivity",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,A3_implied_benchmark_background,"N18_LINEAR36, retained and labelled",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B1_primary_estimator,KSG k=4 nearest neighbours on rank-transformed (copula) data,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B1_conditioning,"primary I(X_{t-k}; Y_t | Y_{t-1}); secondary conditions on {Y_{t-1}, Y_{t-2}}",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B1_sensitivity_estimator,"binned CMI at 5x5x4, TRAIN-frozen quantile edges, infinite outer edges",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B1_surrogates,1000 circular shifts of the source; one-sided p=(1+#{null>=obs})/(1+B); Holm over k=1..20,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B1_lag_range,k = 1..20,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B2_statistic,"delta RMSE and delta QLIKE, restricted minus full, on ordinary VALIDATION",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B2_inference,"moving-block bootstrap, block length 5, 5000 replicates, seed 19; plus HAC DM test",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B3_tokenisation,"36 tokens, one per (state, lag); learned state embedding plus sinusoidal lag encoding",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B3_grid,2 depths x 2 learning rates,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B3_seeds,"19,119,219,319,419,519,619,719,819,919",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B3_primary_aggregation,last-layer head-averaged attention from the [TARGET] query; rollout secondary,2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,B3_null,"phase-randomised-input retrain, 3 seeds, pre-declared",2026-08-17T17:05:39.364008+00:00
+FROZEN_DESIGN,uniform_attention_reference,0.027778,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,python,3.13.5,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,numpy,2.1.3,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,pandas,2.2.3,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,scipy,1.15.3,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,scikit-learn,1.6.1,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,statsmodels,0.14.4,2026-08-17T17:05:39.364008+00:00
+LIBRARY_VERSION,torch,2.11.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,A1 sparse-flexible VALIDATION selection,0.2,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,A1 sparse VALIDATION predictions,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,A1 final calibration and TEST forecasts,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B1 TRAIN conditional CMI curves,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B1 VALIDATION/TEST persistence at the TRAIN-selected peak,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B2 block-dropout refits,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B3 TRANSFORMER_TOKEN36 VALIDATION selection,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B3 ten-seed training and attention extraction,0.0,2026-08-17T17:05:39.364008+00:00
+WALL_CLOCK_SECONDS,B3 phase-randomised null,0.0,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,a1_sparse_selection,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,a1_sparse_validation_predictions,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,a1_sparse_test_forecasts,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b1_cmi_train_curves,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b1_cmi_persistence,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b2_block_dropout_predictions,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b3_token36_selection,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b3_attention_attribution,True,2026-08-17T17:05:39.364008+00:00
+CACHE_HIT,b3_attention_null,True,2026-08-17T17:05:39.364008+00:00
+RUN,RUN_ID,2026-08-17T17:05:39.364008+00:00,2026-08-17T17:05:39.364008+00:00
+RUN,execution_device,cpu,2026-08-17T17:05:39.364008+00:00
+RUN,cache_directory,Data/interim/19B_cache,2026-08-17T17:05:39.364008+00:00
+RUN,pre_test_design_frozen,True,2026-08-17T17:05:39.364008+00:00
+RESULT,sanity_anchor_recovered,False,2026-08-17T17:05:39.364008+00:00
+RESULT,sanity_anchor_failed_checks,B2 refit: majority of model classes support the I block for target R,2026-08-17T17:05:39.364008+00:00
+RESULT,b3_attention_null_discriminates,False,2026-08-17T17:05:39.364008+00:00
+RESULT,b2_anchor_unanimous_sign,True,2026-08-17T17:05:39.364008+00:00
+RESULT,realised_side_invariant,True,2026-08-17T17:05:39.364008+00:00
+RESULT,pooling_reproduction_max_abs_difference,4.441e-16,2026-08-17T17:05:39.364008+00:00
+RESULT,realised_invariance_max_abs_difference,2.220e-16,2026-08-17T17:05:39.364008+00:00
+OPEN,equation_5_implemented,False,2026-08-17T17:05:39.364008+00:00
+OPEN,equation_5_substitute,observed overnight implied variance stands in for the conditional forward implied variance,2026-08-17T17:05:39.364008+00:00
