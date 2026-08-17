@@ -1,0 +1,11 @@
+equation,role,variable,economic_time,df_offset,known_before_target,timing_variant
+Eq2,target,rv_D,"session (D-1 17:00 NY, D 17:00 NY]",0,False,advance
+Eq2,regressor,rv/r2 lag j,session ending model day D-j,-j,True,advance
+Eq2,regressor,IV block,quote date D-j,-j,True,advance
+Eq3,target,iv_quote_D,unknown intraday time on quote date D,0,False,advance
+Eq3,regressor,r2/rv/iv_quote lag j,model day / quote date D-j,-j,True,advance
+Eq2,target,rv_D,"session (D-1 17:00 NY, D 17:00 NY]",0,False,same_label
+Eq2,regressor,rv/r2 lag j,session ending model day D-j,-j,True,same_label
+Eq2,regressor,IV block,quote date D-(j-1),-(j-1),unverified: date-only quote,same_label
+Eq3,target,iv_quote_D,unknown intraday time on quote date D,0,False,same_label
+Eq3,regressor,r2/rv/iv_quote lag j,model day / quote date D-j,-j,True,same_label

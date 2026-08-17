@@ -1,0 +1,6 @@
+{
+  "inner_gaussian_logscore": -1.4104026761356152,
+  "inner_jump_mixture_logscore": -1.4099548832222752,
+  "chosen_components": 2,
+  "interpretation": "two components are reduced-form jump robustness, not Poisson-jump identification"
+}
