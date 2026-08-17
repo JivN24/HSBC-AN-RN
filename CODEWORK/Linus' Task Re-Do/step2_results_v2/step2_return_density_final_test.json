@@ -1,0 +1,7 @@
+{
+  "n_test": 1089,
+  "gaussian_logscore": -1.4471827914352209,
+  "selected_density_components": 2,
+  "selected_density_logscore": -1.4414845241684278,
+  "tail_abs_gt3": 0.0
+}

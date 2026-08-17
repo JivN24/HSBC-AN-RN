@@ -1,0 +1,10 @@
+quantity,value
+hourly rows,149842
+model days,5842
+complete 24h,5764
+zero-RV excluded,2
+RV eligible,5762
+IV rows,5517
+final split,2022-04-12
+inner split,2018-11-27
+IV intraday timestamp columns,[]

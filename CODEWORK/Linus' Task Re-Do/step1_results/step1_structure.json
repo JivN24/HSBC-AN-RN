@@ -1,0 +1,31 @@
+{
+  "adopted_alignment": "nextday",
+  "adopted_lag_order": 1,
+  "alignment_evidence": {
+    "xcorr_peak_h": 1,
+    "corr_sameday": 0.5200346869054563,
+    "corr_nextday": 0.5567822465270585
+  },
+  "retained_arrows": [
+    "iv_var -> r2",
+    "iv_var -> rv",
+    "r2 -> iv_var",
+    "rv -> iv_var",
+    "rv -> r2"
+  ],
+  "rejected_arrows": [
+    "r2 -> rv"
+  ],
+  "eq2_blocks_retained": [
+    "rv_lag",
+    "iv_lag"
+  ],
+  "eq2_blocks_dropped": [
+    "r2_lag"
+  ],
+  "eq3_blocks_retained": [
+    "r2_lag",
+    "rv_lag",
+    "iv_lag"
+  ]
+}
