@@ -1,5 +1,12 @@
 RUN_ID,edge_id,retained_train_validation_RAW_IV,retained_train_validation_WEEKDAY_NORM_IV,train_partial_R2_RAW_IV,train_partial_R2_WEEKDAY_NORM_IV,validation_partial_R2_RAW_IV,validation_partial_R2_WEEKDAY_NORM_IV,training_tdmi_peak_lag_RAW_IV,training_tdmi_peak_lag_WEEKDAY_NORM_IV,training_tdmi_support_RAW_IV,training_tdmi_support_WEEKDAY_NORM_IV,tdmi_validation_support_RAW_IV,tdmi_validation_support_WEEKDAY_NORM_IV,tdmi_test_support_RAW_IV,tdmi_test_support_WEEKDAY_NORM_IV,retention_changed,tdmi_peak_changed
+<<<<<<< HEAD
 2026-08-18T13:54:02.681316+00:00,implied_variance_to_realised_variance,True,True,0.2058421308495088,0.1708068353853208,0.13602865999368494,0.16277113409169647,1,1,True,True,True,True,True,True,False,False
 2026-08-18T13:54:02.681316+00:00,realised_variance_to_implied_variance,True,True,0.03766267596811581,0.034382314183977455,0.04606806796045591,0.04222775142212435,1,1,True,True,True,True,True,True,False,False
 2026-08-18T13:54:02.681316+00:00,squared_return_to_implied_variance,True,True,0.0577363807300593,0.03509501290503444,0.06444892182882002,0.03594660730290686,2,1,True,True,True,True,True,True,False,True
 2026-08-18T13:54:02.681316+00:00,squared_return_to_realised_variance,True,False,0.002147808029537855,0.0032916233311234546,0.008328588108634646,0.002586356188396282,1,1,True,True,True,True,True,True,True,False
+=======
+2026-08-18T14:32:21.874883+00:00,implied_variance_to_realised_variance,True,True,0.20584213084950875,0.170806835385321,0.13602865999368555,0.1627711340916963,1,1,True,True,True,True,True,True,False,False
+2026-08-18T14:32:21.874883+00:00,realised_variance_to_implied_variance,True,True,0.037662675968115816,0.034382314183977566,0.04606806796045553,0.042227751422123774,1,1,True,True,True,True,True,True,False,False
+2026-08-18T14:32:21.874883+00:00,squared_return_to_implied_variance,True,True,0.057736380730059315,0.03509501290503433,0.06444892182881912,0.035946607302905734,2,1,True,True,True,True,True,True,False,True
+2026-08-18T14:32:21.874883+00:00,squared_return_to_realised_variance,True,False,0.0021478080295374282,0.0032916233311235904,0.00832858810863465,0.0025863561883959756,1,1,True,True,True,True,True,True,True,False
+>>>>>>> 23402699f88b0d6bdc85b5829ceda7f9c55ede5f
