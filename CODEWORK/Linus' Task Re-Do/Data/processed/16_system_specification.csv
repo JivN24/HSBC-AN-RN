@@ -1,3 +1,3 @@
 RUN_ID,equation,target,selected_order,retained_predictor_blocks,iv_specification,iv_column,benchmark_only,primary_specification
-2026-08-17T18:18:47.022510+00:00,realised_variance,realised_variance_ann_252,1,I_to_R,WEEKDAY_NORM_IV,iv_model_var,False,True
-2026-08-17T18:18:47.022510+00:00,implied_variance,implied_variance_ann,12,Q_to_I; R_to_I,WEEKDAY_NORM_IV,iv_model_var,False,True
+2026-08-18T13:54:02.681316+00:00,realised_variance,realised_variance_ann_252,1,I_to_R,WEEKDAY_NORM_IV,iv_model_var,False,True
+2026-08-18T13:54:02.681316+00:00,implied_variance,implied_variance_ann,12,Q_to_I; R_to_I,WEEKDAY_NORM_IV,iv_model_var,False,True

@@ -1,0 +1,3 @@
+RUN_ID,target,selected_history_order,n_observations,R2,adjusted_R2,residual_skew,residual_excess_kurtosis,jarque_bera_p,fitted_below_zero_count,fitted_below_zero_share,most_negative_fitted_value,iv_specification,iv_column,benchmark_only,primary_specification
+2026-08-18T13:54:02.681316+00:00,realised_variance_ann_252,1,3005,0.29659135622093236,0.2958881819685707,11.85736333378861,214.12944577310697,0.0,0,0.0,0.004089803833704742,WEEKDAY_NORM_IV,iv_model_var,False,True
+2026-08-18T13:54:02.681316+00:00,implied_variance_ann,12,2226,0.683071827902708,0.6778596697503542,7.285981366763991,120.25588043693242,0.0,12,0.005390835579514825,-0.03424853364940922,WEEKDAY_NORM_IV,iv_model_var,False,True
