@@ -3,8 +3,8 @@ RF,R,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",R|I,1,0.006255953238788841,
 RF,R,RF_02,"{'max_depth': 8, 'min_samples_leaf': 10}",R|I,1,0.006241287124770566,0.0023449203635659286,1,,True
 RF,R,RF_03,"{'max_depth': None, 'min_samples_leaf': 5}",R|I,1,0.006275726073424485,0.0023095922113187286,1,,False
 RF,R,RF_04,"{'max_depth': None, 'min_samples_leaf': 10}",R|I,1,0.006259113123841393,0.002301588612746751,1,,False
-RF,I,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",I,2,0.004500604167552136,0.002028718440702995,1,,True
-RF,I,RF_02,"{'max_depth': 8, 'min_samples_leaf': 10}",I,2,0.004515139614806419,0.0020286128255943853,1,,False
+RF,I,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",I,2,0.004500604167552136,0.0020287184407029946,1,,True
+RF,I,RF_02,"{'max_depth': 8, 'min_samples_leaf': 10}",I,2,0.00451513961480642,0.0020286128255943853,1,,False
 RF,I,RF_03,"{'max_depth': None, 'min_samples_leaf': 5}",I,2,0.004508708837704157,0.0020151081221418993,1,,False
 RF,I,RF_04,"{'max_depth': None, 'min_samples_leaf': 10}",I,2,0.004523052481731881,0.002007416477521798,1,,False
 GB,R,GB_01,"{'n_estimators': 200, 'learning_rate': 0.03}",R|I,2,0.005040287404686216,0.0027554681491741492,1,,False
