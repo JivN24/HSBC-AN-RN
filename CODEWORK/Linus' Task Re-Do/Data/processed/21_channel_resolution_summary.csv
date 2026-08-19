@@ -1,0 +1,3 @@
+candidate_type,opposite_channel,n_episodes,n_opposite_channel_same_day_available,opposite_channel_same_day_active_count,opposite_channel_same_day_active_rate,n_opposite_channel_next_day_available,opposite_channel_next_day_active_count,opposite_channel_next_day_active_rate,n_five_day_available,five_day_forward_opposite_channel_mean_z,five_day_forward_opposite_channel_median_z,mean_next_day_convergence,median_next_day_convergence,small_sample_descriptive
+REALISED_ONLY,I,4,4,3,0.75,4,0,0.0,4,0.38136982600948616,0.38872925881114906,-1.5414846023014614,-1.541943230551593,True
+IMPLIED_ONLY,R,10,0,0,,9,1,0.1111111111111111,9,-0.11137228500507278,-0.10671202165101627,-1.4847426705941555,-2.092892526695451,False

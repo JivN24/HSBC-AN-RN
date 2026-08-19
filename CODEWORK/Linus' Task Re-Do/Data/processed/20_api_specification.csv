@@ -1,17 +1,5 @@
 item,value,section
-event_alignment_version,TARGET_SPECIFIC_NY_CUT_1000_ET,API
-event_alignment_source,NOTEBOOK_18,API
-alignment_audit,18A_iv_event_alignment_audit.ipynb,API
-alignment_selection_sample,TRAIN_ONLY,API
-realised_event_day_field,realised_model_day,API
-implied_event_day_field,implied_model_day,API
-target_day_field,target_model_day,API
-bloomberg_snapshot_time_identified,False,API
-iv_specification,WEEKDAY_NORM_IV,API
-iv_column,iv_model_var,API
-n_m,n=1; m=12,API
-eventless_history,lags before target-specific masks,API
-denominator,strict positive; no repair,API
-ordinary_ratios,VALIDATION future discovery calibration; TEST OOS diagnostics only,API
-pooling,stage-safe,API
-reuse,all models and scalers refit,API
+event_alignment_version,BLOOMBERG_BGN_1700_TO_1659_SAME_MODEL_DAY,API
+iv_pricing_hours_ny,17:00-16:59,API
+linus_equation_5_used,False,API
+ordinary_response_contract,event-unaware only,API
