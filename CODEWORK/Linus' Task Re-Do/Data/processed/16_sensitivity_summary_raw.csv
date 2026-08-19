@@ -1,4 +1,5 @@
 RUN_ID,edge_id,tdmi_peak_5_bins,tdmi_peak_10_bins,tdmi_peak_15_bins,tdmi_peak_bin_stability,sensitivity,closure_gap_training_robust,source,target,train_validation_hac_robust,holdout_hac_robust,iv_specification,iv_column,benchmark_only,primary_specification
+<<<<<<< HEAD
 2026-08-18T16:31:48.630271+00:00,implied_variance_to_realised_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
 2026-08-18T16:31:48.630271+00:00,realised_variance_to_implied_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
 2026-08-18T16:31:48.630271+00:00,squared_return_to_implied_variance,4.0,2.0,2.0,approximately_stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
@@ -11,3 +12,32 @@ RUN_ID,edge_id,tdmi_peak_5_bins,tdmi_peak_10_bins,tdmi_peak_15_bins,tdmi_peak_bi
 2026-08-18T16:31:48.630271+00:00,,,,,,HAC_inference,,implied_variance_ann,realised_variance_ann_252,True,True,RAW_IV,iv_ann_var,True,False
 2026-08-18T16:31:48.630271+00:00,,,,,,HAC_inference,,squared_return,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
 2026-08-18T16:31:48.630271+00:00,,,,,,HAC_inference,,realised_variance_ann_252,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
+=======
+<<<<<<< HEAD
+2026-08-18T13:54:02.681316+00:00,implied_variance_to_realised_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,realised_variance_to_implied_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,squared_return_to_implied_variance,4.0,2.0,2.0,approximately_stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,squared_return_to_realised_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,squared_return_to_realised_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,implied_variance_to_realised_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,squared_return_to_implied_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,realised_variance_to_implied_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,,,,,,HAC_inference,,squared_return,realised_variance_ann_252,False,False,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,,,,,,HAC_inference,,implied_variance_ann,realised_variance_ann_252,True,True,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,,,,,,HAC_inference,,squared_return,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
+2026-08-18T13:54:02.681316+00:00,,,,,,HAC_inference,,realised_variance_ann_252,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
+=======
+2026-08-18T14:32:21.874883+00:00,implied_variance_to_realised_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,realised_variance_to_implied_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,squared_return_to_implied_variance,4.0,2.0,2.0,approximately_stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,squared_return_to_realised_variance,1.0,1.0,1.0,stable,TDMI_bin_peak,,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,squared_return_to_realised_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,implied_variance_to_realised_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,squared_return_to_implied_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,realised_variance_to_implied_variance,,,,,closure_gap_training,True,,,,,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,,,,,,HAC_inference,,squared_return,realised_variance_ann_252,False,False,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,,,,,,HAC_inference,,implied_variance_ann,realised_variance_ann_252,True,True,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,,,,,,HAC_inference,,squared_return,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
+2026-08-18T14:32:21.874883+00:00,,,,,,HAC_inference,,realised_variance_ann_252,implied_variance_ann,False,False,RAW_IV,iv_ann_var,True,False
+>>>>>>> 23402699f88b0d6bdc85b5829ceda7f9c55ede5f
+>>>>>>> 9477fae82e68d5a276a546636439ebdb37cc18b5

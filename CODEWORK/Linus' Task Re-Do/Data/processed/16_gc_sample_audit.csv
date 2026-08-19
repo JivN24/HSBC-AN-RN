@@ -1,0 +1,7 @@
+RUN_ID,split,target,history_order,rows_used_by_gc,structure_eligible_rows,difference
+2026-08-18T13:54:02.681316+00:00,train,realised_variance_ann_252,1,3005,3053,-48
+2026-08-18T13:54:02.681316+00:00,train,implied_variance_ann,16,2099,3053,-954
+2026-08-18T13:54:02.681316+00:00,validation,realised_variance_ann_252,1,1181,1195,-14
+2026-08-18T13:54:02.681316+00:00,validation,implied_variance_ann,16,1055,1195,-140
+2026-08-18T13:54:02.681316+00:00,test,realised_variance_ann_252,1,1182,1195,-13
+2026-08-18T13:54:02.681316+00:00,test,implied_variance_ann,16,1031,1195,-164
