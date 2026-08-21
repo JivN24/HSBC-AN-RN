@@ -1,0 +1,13 @@
+concern,evidence,verdict,severity,recommended_scope
+non-positive N17 forecasts,See admissibility inventory,INCONCLUSIVE,LOW,N17 only
+non-positive N18 backgrounds,See admissibility and event-floor sensitivity,INCONCLUSIVE,MODERATE,N18–N20
+non-positive N19/N20 forecasts,See ordinary ratio support and floor sensitivity,INCONCLUSIVE,HIGH,N19–N21
+non-random ratio-support loss,Grouped non-positive rows,INCONCLUSIVE,MODERATE,N18–N21
+event-family imbalance,Frequency is structurally unequal,NOT CONFIRMED,LOW,descriptive
+hidden-type imbalance,Detected type counts by stage,PARTIALLY CONFIRMED,MODERATE,application
+quiet-versus-tail imbalance,Tail RMSE audit,PARTIALLY CONFIRMED,MODERATE,application
+N18 timing,Clean pre-TEST offsets,PARTIALLY CONFIRMED,HIGH,N18
+weekday centring,Signed log diagnostic,PARTIALLY CONFIRMED,MODERATE,application
+common horizon,Persisted OOS coverage,NOT CONFIRMED,MODERATE,application
+weekend stale hedges,Nonzero weekend trades,CONFIRMED,HIGH,N23/application
+N24 validation reuse,N19 to N24 provenance,CONFIRMED,MODERATE,reporting

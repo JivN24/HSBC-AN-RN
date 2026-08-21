@@ -1,0 +1,6 @@
+object,notebook,fit_or_selection_data,downstream
+N19 structures,N19,TRAIN fit; VALIDATION specification selection,"N20,N22"
+N20 API,N20,Frozen N19 specs,"N21,N22"
+N21 detector,N21,Chronological calibration and TEST handoff,"N22,N25"
+N22 state,N22,C development/validation; TEST targets locked,N24
+N24 GB/policy,N24,DEVELOPMENT tuning; VALIDATION policy selection,N25

@@ -10,11 +10,11 @@ disagreement_threshold,0.5_99.5,11,11.0
 known_event_proximity,exclude_plus_minus_1_model_day,9,9.0
 individual_flexible_model,RF,14,10.0
 individual_flexible_model,GB,22,12.0
-individual_flexible_model,MLP,18,13.0
+individual_flexible_model,MLP,17,13.0
 individual_flexible_model,TRANSFORMER,19,12.0
 primary_candidate_model_agreement,HIGH_4_OF_4,8,8.0
 primary_candidate_model_agreement,STRONG_3_OF_4,4,4.0
 primary_candidate_model_agreement,MODERATE_2_OF_4,1,1.0
 primary_candidate_model_agreement,CONSENSUS_ONLY_OR_WEAK,1,1.0
 model_consensus_all_four,primary_days_in_all_individual_detectors,8,8.0
-optional_frozen_parametric,FROZEN_N17_PARAMETRIC,19,3.0
+optional_frozen_parametric,FROZEN_N17_PARAMETRIC,22,3.0

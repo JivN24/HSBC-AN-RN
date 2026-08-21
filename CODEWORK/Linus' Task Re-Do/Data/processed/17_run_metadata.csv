@@ -1,0 +1,2 @@
+RUN_ID,execution_run_id,forecast_admissibility_quantile,forecast_floor_source,admissibility_mapping,raw_forecast_column,production_forecast_column,n17_event_timing_used,upstream_notebook_hashes_checked_before_execution,iv_specification,iv_column
+2026-08-20T16:13:44.530590+00:00,2026-08-20T16:13:44.530590+00:00,0.001,TRAIN strictly-positive target values only,"forecast_production = max(forecast_raw, train_positive_floor)",raw_forecast,forecast_production,False,True,WEEKDAY_NORM_IV,iv_model_var

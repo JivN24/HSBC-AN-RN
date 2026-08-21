@@ -1,0 +1,10 @@
+variable,meaning,information_timestamp,role,allowed_at_decision_time
+R_t,current realised variance,end of model day t,state / audit,True
+I_t,current implied variance,end of model day t,forward baseline input,True
+D_t,realised-implied disagreement,end of model day t,hidden-state feature,True
+Z_R_t,realised abnormality,end of model day t,hidden-state feature,True
+Z_I_prev,prior implied abnormality,end of model day t,hidden-state feature,True
+S_next,ordinary forward state,end of model day t,baseline,True
+R_next,future realised variance,after model day t+1,target input,False
+G_next,forward realised-implied gap,after model day t+1,target,False
+C_next,ordinary-model correction,after model day t+1,target,False

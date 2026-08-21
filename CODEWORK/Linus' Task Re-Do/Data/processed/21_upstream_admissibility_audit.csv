@@ -1,0 +1,17 @@
+sample_split,target,model,n_rows,n_equation_eligible,n_floor_activated,n_raw_ratio_defined,n_canonical_ratio_defined,n_rows_where_raw_and_canonical_ratio_differ,floor_activation_rate
+test,I,GB,1208,1208,0,1208,1208,0,0.0
+test,I,MLP,1156,1156,2,1155,1156,1,0.0017301038062283738
+test,I,RF,1208,1208,0,1208,1208,0,0.0
+test,I,TRANSFORMER,1142,1142,2,1142,1142,2,0.0017513134851138354
+test,R,GB,1169,1169,0,1169,1169,0,0.0
+test,R,MLP,1182,1182,0,1182,1182,0,0.0
+test,R,RF,1182,1182,0,1182,1182,0,0.0
+test,R,TRANSFORMER,1182,1182,0,1182,1182,0,0.0
+validation,I,GB,1209,1209,0,1209,1209,0,0.0
+validation,I,MLP,1155,1155,1,1154,1155,0,0.0008658008658008658
+validation,I,RF,1209,1209,0,1209,1209,0,0.0
+validation,I,TRANSFORMER,1143,1143,7,1143,1143,7,0.006124234470691163
+validation,R,GB,1168,1168,0,1168,1168,0,0.0
+validation,R,MLP,1181,1181,0,1181,1181,0,0.0
+validation,R,RF,1181,1181,0,1181,1181,0,0.0
+validation,R,TRANSFORMER,1181,1181,0,1181,1181,0,0.0

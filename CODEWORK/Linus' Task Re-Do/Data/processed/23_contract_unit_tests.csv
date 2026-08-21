@@ -1,0 +1,14 @@
+test,error_or_diagnostic,tolerance,passed
+Non-trivial put-call parity,7.105427357601002e-15,1e-12,True
+Call expiry payoff,0.0,1e-12,True
+Put expiry payoff,0.0,1e-12,True
+Straddle expiry payoff,0.0,1e-12,True
+Positive premium,9.787457213954617,0.0,True
+General FX delta,0.0,1e-12,True
+Zero-rate delta reduction,0.0,1e-12,True
+Mid long-short symmetry,0.0,1e-12,True
+Bid/ask cost non-negative,0.037722826192293724,-1e-12,True
+Hedge timing,0.0,0.0,True
+Fixed raw contract IV,0.0,1e-14,True
+No future IV input,0.0,0.0,True
+No interpolation,0.0,0.0,True

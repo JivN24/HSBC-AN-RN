@@ -1,0 +1,3 @@
+application_stage,n_n22_rows,entry_available,expiry_available,hedge_path_available,contract_complete,median_entry_delay_hours,median_expiry_lead_hours,median_hedge_observations,maximum_observed_quote_gap_hours,incomplete
+DEVELOPMENT,1209,1207,1203,1048,1048,0.0,0.0,25.0,50.0,161
+VALIDATION,1209,1206,1198,961,961,0.0,0.0,25.0,50.0,248

@@ -1,0 +1,3 @@
+RUN_ID,target,floor_quantile,floor_source,n_train_strictly_positive,train_positive_floor,iv_specification,iv_column
+2026-08-20T16:13:44.530590+00:00,R,0.001,TRAIN strictly positive target values only,3372,0.00032029933325018517,WEEKDAY_NORM_IV,iv_model_var
+2026-08-20T16:13:44.530590+00:00,I,0.001,TRAIN strictly positive target values only,3302,0.0015767239436135895,WEEKDAY_NORM_IV,iv_model_var

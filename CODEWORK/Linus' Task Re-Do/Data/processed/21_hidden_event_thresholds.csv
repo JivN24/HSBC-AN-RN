@@ -1,2 +1,2 @@
 cdf_sample,disagreement_q_low,disagreement_q_high,active_channel_percentile,minimum_model_support,bootstrap_reps,bootstrap_seed,primary_horizon,secondary_horizon,S_cheap,S_rich
-VALIDATION_ONLY,-2.976111602187493,2.961469968153063,0.95,3,5000,21,1,5,-0.26230596621483493,0.32939722854668063
+VALIDATION_ONLY,-2.975391565698238,2.9616410922609093,0.95,3,5000,21,1,5,-0.26230596621483493,0.32939722854668063

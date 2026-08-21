@@ -1,0 +1,3 @@
+application_stage,total_common_rows_before_known_event_exclusion,known_at_t_only,known_at_t_plus_1_only,known_at_both,known_at_either,known_at_neither,pct_t_plus_1_known
+DEVELOPMENT,1003,160,162,264,586,417,0.4247258225324028
+VALIDATION,1124,173,179,294,646,478,0.4208185053380783

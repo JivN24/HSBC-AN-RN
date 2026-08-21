@@ -1,0 +1,5 @@
+target,stage,total_eligible_chronological_rows,event_target_rows_excluded,overlap_count,remaining_calibration_rows,lag_valid_rows,final_fit_n
+R,TRAIN,3005,684,53,2321,3005,2321
+R,TRAIN_PLUS_VALIDATION,4186,946,70,3240,4186,3240
+I,TRAIN,2226,530,39,1696,2226,1696
+I,TRAIN_PLUS_VALIDATION,3313,774,57,2539,3313,2539

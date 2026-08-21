@@ -1,0 +1,24 @@
+component,expected_frozen_value,observed_value,verification_result
+N22 notebook SHA256,recorded,d985a9e2ada92b6be6970b8d5299e14a07b5ea6dbc5469d66ab7af1540d30cb3,True
+N23 notebook SHA256,recorded,1aa82b5467ad31138a1e449f6385520f1d289e913aedbe76b496d52939bb0e48,True
+N24 notebook SHA256,recorded,c14ea850b3daf9f852902aae105c36130ee22b69963fe62f42ce0a861d1982ba,True
+model family,GradientBoostingRegressor,"['GradientBoostingRegressor', 'GradientBoostingRegressor', 'GradientBoostingRegressor']",True
+target,C_next,"['C_next', 'C_next', 'C_next']",True
+S_ONLY features,['S_next'],['S_next'],True
+HIDDEN_ONLY features,"['D', 'Z_R', 'Z_I_prev']","['D', 'Z_R', 'Z_I_prev']",True
+COMBINED features,"['S_next', 'D', 'Z_R', 'Z_I_prev']","['S_next', 'D', 'Z_R', 'Z_I_prev']",True
+GB max_depth,1,"[1, 1, 1]",True
+GB min_samples_leaf,20,"[20, 20, 20]",True
+GB n_estimators,100,"[100, 100, 100]",True
+GB learning_rate,0.05,"[0.05, 0.05, 0.05]",True
+GB loss,squared_error,"['squared_error', 'squared_error', 'squared_error']",True
+GB random_state,24,"[24, 24, 24]",True
+S_ONLY artifact SHA256,457f7a4efeeb4fee7102b10ed5c19e75376c63a663a4f02297031ac03b47c58e,457f7a4efeeb4fee7102b10ed5c19e75376c63a663a4f02297031ac03b47c58e,True
+HIDDEN_ONLY artifact SHA256,190d58430b4b694113fe75c4d2f4a528fe70fd2047d45c10b6e3dcdde6a325b7,190d58430b4b694113fe75c4d2f4a528fe70fd2047d45c10b6e3dcdde6a325b7,True
+COMBINED artifact SHA256,62e630bbd3d8c8c6d22b17d2dbe02f4c122155638643710e5a05ecce0e6fd69e,62e630bbd3d8c8c6d22b17d2dbe02f4c122155638643710e5a05ecce0e6fd69e,True
+final policy,FLAT,FLAT,True
+policy frozen,True,True,True
+N24 TEST used in selection,False,False,True
+frozen ML_THRESHOLD values,"[0.23468983650018221, 0.2682547839622752, 0.434647513702269]","[0.2346898365001822, 0.2682547839622752, 0.434647513702269]",True
+risk-weighted objective,mean return / sample standard deviation; not annualised,mean return / sample standard deviation; not annualised,True
+benchmark definitions,TYPE_ONLY benchmark retained,FLAT; ALWAYS_LONG; ALWAYS_SHORT; TYPE_ONLY; ORDINARY_ONLY; GB_S_ONLY,True

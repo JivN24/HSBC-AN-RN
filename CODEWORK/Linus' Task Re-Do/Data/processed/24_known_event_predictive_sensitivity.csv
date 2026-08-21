@@ -1,0 +1,5 @@
+sample,model,n_development,n_validation,rmse,mae,combined_minus_s_rmse
+t_and_t_plus_1_known_event_excluded_refit,ORDINARY,417,478,0.644408780689326,0.5083456004500774,-0.0017113074970859232
+t_and_t_plus_1_known_event_excluded_refit,S_ONLY,417,478,0.646120088186412,0.5015815851822709,0.0
+t_and_t_plus_1_known_event_excluded_refit,HIDDEN_ONLY,417,478,0.596793145440361,0.4644223957174239,-0.049326942746050984
+t_and_t_plus_1_known_event_excluded_refit,COMBINED,417,478,0.618996955890958,0.4786419125274285,-0.027123132295453933

@@ -1,0 +1,7 @@
+event_family,implied_offset,timing_status,rationale,realised_offset,production_mapping,exact_Bloomberg_snapshot_known
+FOMC,0,SUPPORTED_D,PRE-TEST evidence supports D.,0,I_D,False
+US Employment,-1,SUPPORTED_D_MINUS_1,PRE-TEST evidence supports D-1.,0,I_D_MINUS_1,False
+US CPI,0,TIMING_UNRESOLVED_DEFAULT_D,No compelling elevation over ordinary null; default D.,0,I_D,False
+BoJ,-1,SUPPORTED_D_MINUS_1,PRE-TEST evidence supports D-1.,0,I_D_MINUS_1,False
+JPY National CPI,0,TIMING_UNRESOLVED_DEFAULT_D,No compelling elevation over ordinary null; default D.,0,I_D,False
+JPY GDP,0,TIMING_UNRESOLVED_DEFAULT_D,No compelling elevation over ordinary null; default D.,0,I_D,False

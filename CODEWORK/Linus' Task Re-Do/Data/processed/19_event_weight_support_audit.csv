@@ -1,0 +1,11 @@
+model,target,targeted_event_n,equation_eligible_n,clean_primary_event_n,raw_positive_denominator_n,admissible_weight_defined_n,floor_activated_n,clean_event_floor_activated_n
+GB,I,276,276,248,275,276,1,1
+GB,R,276,273,248,273,273,0,0
+MLP,I,276,269,248,268,269,1,1
+MLP,R,276,274,248,274,274,0,0
+PARAMETRIC_N18,I,276,251,248,248,251,7,7
+PARAMETRIC_N18,R,276,274,248,274,274,0,0
+RF,I,276,276,248,276,276,0,0
+RF,R,276,274,248,274,274,0,0
+TRANSFORMER,I,276,267,248,267,267,0,0
+TRANSFORMER,R,276,274,248,274,274,0,0

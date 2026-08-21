@@ -1,0 +1,2 @@
+notebook,timestamp_utc,post_hoc_diagnostic_only,models_fitted,policy_selected,test_selected_floor,n21_detector_rebuilt,upstream_hashes_unchanged,train_R_floors,train_I_floors,original_hidden_count,full_test_signal_rows,weekend_nonzero_trades
+26_application_methodology_sensitivity_audit.ipynb,2026-08-20T15:22:59.171579+00:00,True,False,False,False,False,True,0.00032029933325 | 0.000566757157862 | 0.000744329163385,0.00157672394361 | 0.00210772857147 | 0.00237858228983,14,1209,4041

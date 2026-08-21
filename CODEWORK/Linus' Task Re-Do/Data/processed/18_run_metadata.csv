@@ -1,0 +1,2 @@
+RUN_ID,epsilon_R,epsilon_I,floor_quantile,floor_source,exact_Bloomberg_snapshot_known,timing_selection,shift_method
+2026-08-20T18:55:37.858820+00:00,0.0003202993332501,0.0015767239436135,0.001,N17 TRAIN strictly-positive target values,False,frozen PRE-TEST contract; TEST post-hoc only,ordered canonical model-day positions

@@ -1,0 +1,20 @@
+closure_condition,status
+TRAIN-only floor,PASS
+floor quantile 0.001,PASS
+epsilon_R positive,PASS
+epsilon_I positive,PASS
+all admissible R forecasts positive,PASS
+all admissible I forecasts positive,PASS
+raw forecasts retained,PASS
+no model refitting caused by floor,PASS
+no model retuning,PASS
+no VALIDATION floor selection,PASS
+no TEST floor selection,PASS
+no arbitrary 1e-12 forecast floor,PASS
+raw QLIKE support handled correctly,PASS
+positive downstream denominator requirement,PASS
+chronology unchanged,PASS
+N16 structure conclusion unchanged,PASS
+other notebook hashes unchanged,PASS
+all expected outputs written,PASS
+N17 ready to freeze,PASS
