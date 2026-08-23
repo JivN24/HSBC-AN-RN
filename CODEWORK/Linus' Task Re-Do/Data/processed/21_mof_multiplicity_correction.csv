@@ -1,0 +1,2 @@
+observed_best_alpha,observed_best_window_model_days,observed_min_nominal_p_value,familywise_min_p_randomisation_p_value,n_cells,n_shifts,adjusted_significant_at_5pct
+0.01,5,0.028122415219189414,0.062034739454094295,9,1209,False

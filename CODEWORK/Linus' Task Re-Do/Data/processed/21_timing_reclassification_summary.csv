@@ -1,0 +1,7 @@
+metric,value
+fixed_primary_candidate_days,209
+old_uniform_D_strict_hidden_days,69
+corrected_strict_hidden_days,93
+recovered_strict_hidden_days,24
+newly_excluded_days,0
+net_change,24

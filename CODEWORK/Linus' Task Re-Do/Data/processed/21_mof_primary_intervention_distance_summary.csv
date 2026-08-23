@@ -1,0 +1,2 @@
+n_interventions,n_exactly_on_peak,n_within_1_model_day,n_within_2_model_days,n_within_5_model_days,distant_unmatched_intervention_date,distant_unmatched_distance_model_days
+10,4,8,9,9,2022-09-22,11
