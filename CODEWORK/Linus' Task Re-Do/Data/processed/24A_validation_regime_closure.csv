@@ -1,0 +1,16 @@
+check,pass
+validation_handoff_rows_902,True
+validation_unique_decision_days,True
+validation_stage_only,True
+prediction_finiteness,True
+prediction_days_equal_frozen_COMMON,True
+fixed_regime_count_reconciles_902,True
+base_SSE_shares_sum_one,True
+hidden_SSE_shares_sum_one,True
+full_validation_predictive_reconciliation,True
+full_validation_economic_reconciliation,True
+validation_gate_entries_34,True
+no_model_refit,True
+no_TEST_outcomes_inspected,True
+N24_frozen_inputs_unchanged,True
+no_N24_output_overwrite,True

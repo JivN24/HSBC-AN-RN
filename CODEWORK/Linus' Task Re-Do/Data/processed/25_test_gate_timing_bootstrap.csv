@@ -1,0 +1,2 @@
+block_length_BASE_trade_observations,replications_requested,random_seed,valid_replications,mean_difference,median_difference,p02_5,p97_5
+5,10000,19,10000,0.0013300554512857238,0.0026909974845013424,-0.11198047009746906,0.10997419871898861

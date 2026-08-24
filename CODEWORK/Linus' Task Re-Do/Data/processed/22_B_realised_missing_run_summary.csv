@@ -1,0 +1,2 @@
+total_B_missing_R_days,number_of_missing_runs,longest_missing_run_days,median_missing_run_length,longest_run_start_model_day,longest_run_end_model_day,longest_run_missing_day_share
+204,9,196,1.0,2010-01-01,2010-10-01,0.9607843137254902

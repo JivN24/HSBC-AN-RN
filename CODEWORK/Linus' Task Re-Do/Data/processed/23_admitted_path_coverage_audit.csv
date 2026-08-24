@@ -1,0 +1,4 @@
+stage,n,min,median,max,n_eq_18,n_eq_19,would_fail_hypothetical_20_observation_floor
+C,961,23,25.0,25,0,0,0
+TEST,962,24,25.0,25,0,0,0
+VALIDATION,961,23,25.0,25,0,0,0

@@ -1,0 +1,3 @@
+role,reference_block,n_R_consensus_reference,n_I_consensus_reference,c_R,c_I,R_abnormal_count,I_abnormal_count,candidate_count
+N21_REFERENCE_DIAGNOSTIC,VALIDATION,919,899,0.0510337323177366,0.0626830517153097,,,
+N22_PROSPECTIVE_VALIDATION,C,877,836,0.05527352637298515,0.07060595521504427,38.0,37.0,70.0

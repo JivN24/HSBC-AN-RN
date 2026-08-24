@@ -1,0 +1,7 @@
+object,n_comparable_rows,maximum_absolute_difference,n_failing_atol_1e_12,pass
+L_R,1132,4.440892098500626e-16,0,True
+L_I_prev,1132,2.220446049250313e-16,0,True
+Delta_L,1132,4.440892098500626e-16,0,True
+common_log_response,1132,2.220446049250313e-16,0,True
+omega_R_consensus,1132,1.7763568394002505e-15,0,True
+omega_I_prev_consensus,1132,1.7763568394002505e-15,0,True

@@ -1,0 +1,11 @@
+feature,role,timing
+Q_t,BASE,decision t / next observed t+1
+R_t,BASE,decision t / next observed t+1
+I_t,BASE,decision t / next observed t+1
+Fhat_R_adm_t1,BASE,decision t / next observed t+1
+Fhat_I_adm_t1,BASE,decision t / next observed t+1
+S_t1_given_t,BASE,decision t / next observed t+1
+Delta_L_t,HIDDEN_AWARE_ADDITION,frozen N22 decision-time coordinate
+common_log_response_t,HIDDEN_AWARE_ADDITION,frozen N22 decision-time coordinate
+P_R_t,HIDDEN_AWARE_ADDITION,frozen N22 decision-time coordinate
+P_I_prev_t,HIDDEN_AWARE_ADDITION,frozen N22 decision-time coordinate

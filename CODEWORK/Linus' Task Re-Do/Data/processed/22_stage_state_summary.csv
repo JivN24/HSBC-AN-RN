@@ -1,0 +1,4 @@
+stage,raw_target_rows,valid_consensus_pairs,R_abnormal_count,R_abnormal_rate,I_abnormal_count,I_abnormal_rate,candidate_count,NONE,REALISED_ONLY,IMPLIED_ONLY,JOINT,known_primary_event_pair_count,strict_hidden_days,strict_hidden_episodes,episode_entries
+C,1209,1029,71,0.06899902818270165,83,0.08066083576287658,140,889,57,69,14,266,96,87,87
+VALIDATION,1209,1133,38,0.03353927625772286,37,0.03265666372462489,70,1063,33,32,5,284,49,46,46
+TEST,1209,1132,84,0.07420494699646643,144,0.127208480565371,209,923,65,125,19,284,93,85,85

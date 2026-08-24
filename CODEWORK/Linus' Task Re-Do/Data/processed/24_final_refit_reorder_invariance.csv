@@ -1,0 +1,10 @@
+model,kind,n_rows,n_different,max_absolute_difference,pass_rtol_0_atol_1e_12
+Yhat_BASE,prediction,901,0,9.71445146547012e-17,True
+Yhat_HIDDEN_AWARE,prediction,901,0,9.8879238130678e-17,True
+Yhat_NOISE_19,prediction,901,0,9.952975943416931e-17,True
+Yhat_NOISE_119,prediction,901,0,9.974659986866641e-17,True
+Yhat_NOISE_219,prediction,901,0,9.80118763926896e-17,True
+z_BASE,action,901,0,0.0,True
+z_GATE_ONLY,action,901,0,0.0,True
+z_HIDDEN_RAW,action,901,0,0.0,True
+z_HIDDEN_AWARE,action,901,0,0.0,True

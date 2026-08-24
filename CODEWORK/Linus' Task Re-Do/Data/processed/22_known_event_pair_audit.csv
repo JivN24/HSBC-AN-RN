@@ -1,0 +1,22 @@
+stage,family,n_R_event_legs,n_previous_I_event_legs,n_pair_or_for_family,unique_pair_join
+C,FOMC,33,34,67,True
+C,US Employment,44,44,44,True
+C,US CPI,51,51,51,True
+C,BoJ,52,52,52,True
+C,JPY National CPI,48,48,48,True
+C,JPY GDP,32,32,32,True
+C,ALL_SIX,240,240,266,True
+VALIDATION,FOMC,36,35,71,True
+VALIDATION,US Employment,51,51,51,True
+VALIDATION,US CPI,55,55,55,True
+VALIDATION,BoJ,38,38,38,True
+VALIDATION,JPY National CPI,55,55,55,True
+VALIDATION,JPY GDP,37,37,37,True
+VALIDATION,ALL_SIX,255,254,284,True
+TEST,FOMC,35,35,70,True
+TEST,US Employment,53,53,53,True
+TEST,US CPI,53,53,53,True
+TEST,BoJ,36,36,36,True
+TEST,JPY National CPI,54,54,54,True
+TEST,JPY GDP,36,36,36,True
+TEST,ALL_SIX,253,252,284,True

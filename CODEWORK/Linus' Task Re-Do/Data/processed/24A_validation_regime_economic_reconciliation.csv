@@ -1,0 +1,4 @@
+policy,cumulative_net_pnl,n_days,n_trades,n_long,n_short,n_flat,pass
+BASE,True,True,True,True,True,True,True
+GATE_ONLY,True,True,True,True,True,True,True
+HIDDEN_AWARE,True,True,True,True,True,True,True

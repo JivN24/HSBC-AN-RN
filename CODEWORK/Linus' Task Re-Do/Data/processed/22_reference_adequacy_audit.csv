@@ -1,0 +1,3 @@
+block,raw_block_rows,R_consensus_adequacy_threshold,I_consensus_adequacy_threshold,R_usable_target_rows,R_consensus_reference,R_n21_validation_comparator,R_ratio_to_n21_validation_comparator,R_pass,R_RF_model_reference,R_GB_model_reference,R_MLP_model_reference,R_TRANSFORMER_model_reference,I_usable_target_rows,I_consensus_reference,I_n21_validation_comparator,I_ratio_to_n21_validation_comparator,I_pass,I_RF_model_reference,I_GB_model_reference,I_MLP_model_reference,I_TRANSFORMER_model_reference,overall_pass
+B,1209,736,720,995,755,919,0.8215451577801959,True,755,748,755,755,1206,741,899,0.8242491657397107,True,913,913,741,734,True
+C,1209,736,720,1141,877,919,0.9542981501632208,True,877,852,877,877,1209,836,899,0.9299221357063404,True,932,932,836,813,True

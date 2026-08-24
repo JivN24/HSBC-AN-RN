@@ -1,0 +1,2 @@
+application_keys_unique,iv_source_keys_unique,row_count_preserved,matched_rows,unmatched_application_rows,missing_iv_rows,model_day_mismatch_count,merge_cardinality_pass
+True,True,True,3627,0,1,0,True

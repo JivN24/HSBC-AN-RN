@@ -1,0 +1,6 @@
+model,rows,features,parameters
+BASE,1707,Q_t | R_t | I_t | Fhat_R_adm_t1 | Fhat_I_adm_t1 | S_t1_given_t,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.03, 'max_depth': 2, 'min_samples_leaf': 40}"
+HIDDEN_AWARE,1707,Q_t | R_t | I_t | Fhat_R_adm_t1 | Fhat_I_adm_t1 | S_t1_given_t | Delta_L_t | common_log_response_t | P_R_t | P_I_prev_t,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.03, 'max_depth': 2, 'min_samples_leaf': 40}"
+BASE+NOISE_19,1707,BASE + four noise features,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.03, 'max_depth': 2, 'min_samples_leaf': 40}"
+BASE+NOISE_119,1707,BASE + four noise features,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.03, 'max_depth': 2, 'min_samples_leaf': 40}"
+BASE+NOISE_219,1707,BASE + four noise features,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.03, 'max_depth': 2, 'min_samples_leaf': 40}"

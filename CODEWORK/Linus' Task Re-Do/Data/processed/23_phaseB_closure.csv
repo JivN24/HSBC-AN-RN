@@ -1,0 +1,13 @@
+check,pass
+phase_a_ready_before_pricing,True
+positive_entry_mid_premium,True
+positive_scenario_bid_volatility,True
+nonnegative_terminal_payoff,True
+gross_pnl_identity,True
+normalisation_identity,True
+long_short_gross_symmetry,True
+option_spread_charged_once_at_entry,True
+spot_cost_ledger_has_initial_rebalance_and_terminal,True
+entry_hurdle_dependency_audit_pass,True
+entry_hurdle_excludes_future_hedge_cost,True
+test_economic_results_not_used_for_selection,True

@@ -1,0 +1,9 @@
+statement,value
+application_forecasting_models_fitted_in_N25,NO (0)
+application_predictions_regenerated_in_N25,NO (0)
+inferential_diagnostic_OLS_fits,2
+TEST_driven_design_changes,NO (0)
+C_VALIDATION_sources,24_application_common_feature_panel_pretest.csv | 24_predictive_metrics_pretest.csv | 24_predictive_benchmark_pretest.csv | 24_action_counts_pretest.csv | 24_economic_diagnostics_pretest.csv
+pooled_primary_three_stage_result_used,NO
+historical_TEST_globally_untouched,NO
+revised_application_frozen_before_N25_outcome_evaluation,YES

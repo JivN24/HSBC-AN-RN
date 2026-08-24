@@ -1,0 +1,9 @@
+stage,target,raw_canonical_model_days,finite_target_rows,model_forecast_rows_finite,admissible_forecast_rows_positive,positive_log_response_model_rows,minimum_model_support_target_days,valid_target_consensus_days,ordinary_reference_eligible_consensus_days,raw_minus_finite_target,finite_target_without_positive_model_log_rows
+B,R,1209,1005,3970,3970,3970,995,995,755.0,204,10
+B,I,1209,1208,4354,4354,4354,975,975,741.0,1,2
+C,R,1209,1172,4536,4536,4536,1141,1141,877.0,37,31
+C,I,1209,1209,4557,4557,4557,1084,1084,836.0,0,0
+VALIDATION,R,1209,1195,4711,4711,4711,1181,1181,,14,14
+VALIDATION,I,1209,1209,4716,4716,4716,1155,1155,,0,0
+TEST,R,1209,1195,4715,4715,4715,1182,1182,,14,13
+TEST,I,1209,1208,4714,4714,4714,1156,1156,,1,0

@@ -1,0 +1,24 @@
+output_path,purpose,branch,row_count,required_nonempty
+22_historical_C_model_level_ordinary_forecasts.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,9093,True
+22_reference_adequacy_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,2,True
+22_model_level_reference_counts.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,16,True
+22_stage_consensus_thresholds.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3,True
+22_stage_state_summary.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3,True
+22_validation_dual_role_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,2,True
+22_prospective_episodes.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,218,True
+22_episode_entries.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,218,True
+22_application_state_panel.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3294,True
+22_prospective_episode_days.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,238,True
+22_test_reconciliation.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,1,True
+22_primary_specification.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,1,True
+22_omega_consensus_definition_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3,True
+22_model_support_distribution.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3,True
+22_response_coordinate_definitions.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,8,True
+22_response_coordinate_identity_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,15,True
+22_test_continuous_reconciliation.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,6,True
+22_floor_provenance_summary.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,3,True
+22_block_target_attrition_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,8,True
+22_known_event_pair_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,21,True
+22_B_realised_missing_run_audit.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,9,True
+22_B_realised_missing_run_summary.csv,N22 leakage-safe reconstruction,PRIMARY_C_PLUS_VALIDATION,1,True
+22_surgical_invariance_audit.csv,N22 final surgical invariance audit,PRIMARY_C_PLUS_VALIDATION,34,True

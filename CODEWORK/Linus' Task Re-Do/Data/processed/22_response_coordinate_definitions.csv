@@ -1,0 +1,9 @@
+field,definition,space,detector_role
+omega_R_consensus,median_m(omega_R_m),raw response ratio,N21-compatible descriptive summary
+L_R / log_omega_R_consensus,median_m(log(omega_R_m)),log response ratio,detector coordinate
+omega_R_from_L,exp(L_R),raw transform of log coordinate,transform-consistent descriptive companion
+omega_I_prev_consensus,median_m(omega_I_prev_m),raw response ratio,N21-compatible descriptive summary
+L_I_prev / log_omega_I_prev_consensus,median_m(log(omega_I_prev_m)),log response ratio,detector coordinate
+omega_I_prev_from_L,exp(L_I_prev),raw transform of log coordinate,transform-consistent descriptive companion
+Delta_L,L_R - L_I_prev; exp(Delta_L)=omega_R_from_L/omega_I_prev_from_L,log difference,detector-derived coordinate
+common_log_response,(L_R + L_I_prev)/2,log response ratio,descriptive coordinate

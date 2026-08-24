@@ -1,0 +1,16 @@
+scope,identity,n_comparable_rows,n_failing,maximum_absolute_residual,pass
+C,L_R_equals_common_plus_half_delta,1029,0,2.220446049250313e-16,True
+C,L_I_equals_common_minus_half_delta,1029,0,2.220446049250313e-16,True
+C,omega_R_from_L_equals_exp_L_R,1029,0,0.0,True
+C,omega_I_from_L_equals_exp_L_I,1029,0,0.0,True
+C,exp_delta_equals_from_L_ratio,1029,0,8.881784197001252e-16,True
+test,L_R_equals_common_plus_half_delta,1132,0,2.220446049250313e-16,True
+test,L_I_equals_common_minus_half_delta,1132,0,1.942890293094024e-16,True
+test,omega_R_from_L_equals_exp_L_R,1132,0,0.0,True
+test,omega_I_from_L_equals_exp_L_I,1132,0,0.0,True
+test,exp_delta_equals_from_L_ratio,1132,0,7.105427357601002e-15,True
+validation,L_R_equals_common_plus_half_delta,1133,0,2.220446049250313e-16,True
+validation,L_I_equals_common_minus_half_delta,1133,0,2.220446049250313e-16,True
+validation,omega_R_from_L_equals_exp_L_R,1133,0,0.0,True
+validation,omega_I_from_L_equals_exp_L_I,1133,0,0.0,True
+validation,exp_delta_equals_from_L_ratio,1133,0,3.552713678800501e-15,True

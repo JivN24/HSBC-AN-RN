@@ -1,0 +1,17 @@
+check,pass,phaseA_ready
+source_rows_C_validation_test_equal_1209,True,True
+n22_episode_entries_pre_filter_match,True,True
+timezone_aware_ny_boundaries,True,True
+iv_source_key_unique,True,True
+iv_merge_cardinality_one_to_one,True,True
+accepted_iv_matches_state_model_day,True,True
+accepted_has_raw_iv,True,True
+friday_derived_from_state_boundary,True,True
+accepted_entry_delay_at_most_60_minutes,True,True
+accepted_expiry_error_at_most_60_minutes,True,True
+accepted_maturity_in_23_to_25_hours,True,True
+accepted_has_at_least_18_observations,True,True
+accepted_max_gap_at_most_2_hours,True,True
+attempted_equals_admissible_plus_rejected,True,True
+one_row_per_attempted_contract,True,True
+phaseA_construction_excludes_hidden_fields,True,True
