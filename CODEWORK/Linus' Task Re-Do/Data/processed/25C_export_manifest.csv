@@ -1,0 +1,14 @@
+file,rows,exists,nonempty_file
+25C_test_merged_evaluation_panel.csv,901.0,True,True
+25C_test_target_descriptive_statistics.csv,1.0,True,True
+25C_test_predictive_metrics.csv,7.0,True,True
+25C_test_policy_action_counts.csv,8.0,True,True
+25C_test_economic_metrics.csv,8.0,True,True
+25C_test_daily_policy_pnl.csv,901.0,True,True
+25C_test_gate_timing_diagnostic.csv,1.0,True,True
+25C_test_hidden_incremental_diagnostic.csv,1.0,True,True
+25C_validation_test_stability_summary.csv,1.0,True,True
+25C_final_test_summary.csv,8.0,True,True
+figures/25C_test_cumulative_net_pnl.png,,True,True
+figures/25C_test_predictive_mse_comparison.png,,True,True
+figures/25C_test_risk_weighted_J_comparison.png,,True,True

@@ -1,0 +1,2 @@
+diagnostic,n_paired_gated_observations,mean_difference,median_difference,std_difference_ddof_1,coefficient_constant,standard_error_HAC_lag5,test_statistic,p_value,ci95_lower,ci95_upper,HAC_maxlags
+supporting inferential diagnostic: HIDDEN_AWARE minus GATE_ONLY on frozen gated dates,74,-0.046540022829432884,0.0,0.3952466189482306,-0.04654002282943292,0.041335156061688895,-1.1259186431999009,0.26019995733363954,-0.12755544000568567,0.03447539434681982,5

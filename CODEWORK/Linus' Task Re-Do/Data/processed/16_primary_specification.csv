@@ -1,10 +1,2 @@
 RUN_ID,iv_specification,iv_column,selected_n,selected_m,selected_realised_order,selected_implied_order,retain_Q_to_R,retain_I_to_R,retain_Q_to_I,retain_R_to_I,lag_convention,bic_candidate_range,gc_alpha,holm_correction,realised_state_definition,implied_state_definition,normalisation_estimation_window,event_unaware,eventless,equation_5_implemented,forecasting_performed,raw_benchmark_orders
-<<<<<<< HEAD
-2026-08-18T16:31:48.630271+00:00,WEEKDAY_NORM_IV,iv_model_var,1,12,1,12,False,True,True,True,positive source-leading-target model-day lags,1..20,0.05,True,252 * rv_within,iv_model_var: squared Bloomberg overnight/1D ATM IV after frozen weekday normalisation,ALL_TRAIN,True,False,False,False,"n=1, m=16"
-=======
-<<<<<<< HEAD
-2026-08-18T13:54:02.681316+00:00,WEEKDAY_NORM_IV,iv_model_var,1,12,1,12,False,True,True,True,positive source-leading-target model-day lags,1..20,0.05,True,252 * rv_within,iv_model_var: squared Bloomberg overnight/1D ATM IV after frozen weekday normalisation,ALL_TRAIN,True,False,False,False,"n=1, m=16"
-=======
-2026-08-18T14:32:21.874883+00:00,WEEKDAY_NORM_IV,iv_model_var,1,12,1,12,False,True,True,True,positive source-leading-target model-day lags,1..20,0.05,True,252 * rv_within,iv_model_var: squared Bloomberg overnight/1D ATM IV after frozen weekday normalisation,ALL_TRAIN,True,False,False,False,"n=1, m=16"
->>>>>>> 23402699f88b0d6bdc85b5829ceda7f9c55ede5f
->>>>>>> 9477fae82e68d5a276a546636439ebdb37cc18b5
+2026-08-25T14:45:33.853974+00:00,WEEKDAY_NORM_IV,iv_model_var,1,12,1,12,False,True,True,True,positive source-leading-target model-day lags,1..20,0.05,True,252 * rv_within,iv_model_var: squared Bloomberg overnight/1D ATM IV after frozen weekday normalisation,ALL_TRAIN,True,False,False,False,"n=1, m=16"

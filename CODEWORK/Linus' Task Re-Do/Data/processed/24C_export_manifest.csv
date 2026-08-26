@@ -1,0 +1,16 @@
+file,rows,exists
+24C_application_common_feature_panel_pretest.csv,1707.0,True
+24C_risk_weighted_candidate_selection.csv,16.0,True
+24C_candidate_rank_comparison.csv,16.0,True
+24C_noise_capacity_control.csv,3.0,True
+24C_predictive_metrics_pretest.csv,10.0,True
+24C_policy_actions_pretest.csv,16.0,True
+24C_economic_diagnostics_pretest.csv,16.0,True
+24C_feature_importance.csv,16.0,True
+24C_final_refit_manifest.csv,1.0,True
+24C_test_feature_availability_audit.csv,1.0,True
+24C_test_prediction_policy_handoff.csv,901.0,True
+24C_test_firewall_audit.csv,1.0,True
+24C_cumulative_net_pnl_c.png,,True
+24C_cumulative_net_pnl_validation.png,,True
+24C_candidate_validation_J_comparison.png,,True

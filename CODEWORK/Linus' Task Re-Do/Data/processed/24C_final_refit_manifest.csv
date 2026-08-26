@@ -1,0 +1,2 @@
+refit_rows,selected_candidate_id,parameters
+1707,16,"{'loss': 'squared_error', 'subsample': 1.0, 'random_state': 19, 'n_estimators': 250, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 40}"

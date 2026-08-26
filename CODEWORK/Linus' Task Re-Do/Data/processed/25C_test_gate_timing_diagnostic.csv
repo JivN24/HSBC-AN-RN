@@ -1,0 +1,2 @@
+diagnostic,sample_definition,n_obs,n_gate,n_non_gate,intercept_estimate,gate_coefficient_estimate,HAC_standard_error_lag5,test_statistic,p_value,ci95_lower,ci95_upper,HAC_maxlags
+supporting inferential diagnostic: BASE trade net PnL on gate versus non-gate dates,TEST observations on which frozen BASE action is non-zero,784,59,725,-0.06084493190925534,0.002367829984233634,0.060761301725600896,0.038969375523368405,0.9689148048510772,-0.11672213305171555,0.12145779302018284,5
