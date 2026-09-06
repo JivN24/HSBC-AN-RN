@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+    \centering
+    \small
+    \begin{tabular}{lll}
+        \toprule
+        Case & Parameter varied & Value \\
+        \midrule
+        Benchmark & All & $\kappa=1.50,\ \theta=0.20,\ \nu=0.015,\ \rho=-0.35,\ A=0.01,\ \lambda=35$ \\
+        $\kappa$ low & $\kappa$ & 0.75 \\
+        $\kappa$ high & $\kappa$ & 3.00 \\
+        $\theta$ low & $\theta$ & 0.15 \\
+        $\theta$ high & $\theta$ & 0.25 \\
+        $\nu$ low & $\nu$ & 0.0075 \\
+        $\nu$ high & $\nu$ & 0.0225 \\
+        $\rho$ more negative & $\rho$ & -0.70 \\
+        $\rho$ near zero & $\rho$ & -0.05 \\
+        $A$ moderate & $A$ & 0.02 \\
+        $A$ strong & $A$ & 0.03 \\
+        $A$ extreme & $A$ & 0.05 \\
+        $\lambda$ slow & $\lambda$ & 17.5 \\
+        $\lambda$ fast & $\lambda$ & 70 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Scalar robustness cases used in the one-at-a-time synthetic sensitivity analysis. Each non-benchmark case changes only the parameter shown, with all remaining quantities held at their benchmark values.}
+    \label{tab:scalar_robustness_cases}
+\end{table}
