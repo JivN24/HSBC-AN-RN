@@ -1,9 +1,9 @@
 model,target,selected_parent_blocks,selected_lag_order,structure_candidate_id,hyperparameter_candidate_id,selected_hyperparameters,final_fixed_epochs,neural_final_ensemble_seeds
-GB,I,I,2,I__I__L02,GB_04,"{'n_estimators': 400, 'learning_rate': 0.05}",,
-MLP,I,I|Q,4,I__I+Q__L04,MLP_01,"([32], 0.001)",59.0,19|119|219
+GB,I,I,2,I__I__L02,GB_02,"{'n_estimators': 200, 'learning_rate': 0.05}",,
+MLP,I,I|Q,4,I__I+Q__L04,MLP_03,"([32, 16], 0.001)",77.0,19|119|219
 RF,I,I,2,I__I__L02,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",,
-TRANSFORMER,I,I|Q|R,5,I__I+Q+R__L05,TR_04,"((24, 4, 48), 0.0003)",61.0,19|119|219
+TRANSFORMER,I,I|Q|R,5,I__I+Q+R__L05,TR_03,"((24, 4, 48), 0.001)",19.0,19|119|219
 GB,R,R|I,2,R__R+I__L02,GB_02,"{'n_estimators': 200, 'learning_rate': 0.05}",,
-MLP,R,R|I,1,R__R+I__L01,MLP_03,"([32, 16], 0.001)",55.0,19|119|219
-RF,R,R|I,1,R__R+I__L01,RF_02,"{'max_depth': 8, 'min_samples_leaf': 10}",,
-TRANSFORMER,R,R|I,1,R__R+I__L01,TR_02,"((16, 2, 32), 0.0003)",148.0,19|119|219
+MLP,R,R|I,1,R__R+I__L01,MLP_04,"([32, 16], 0.0003)",143.0,19|119|219
+RF,R,R|I,1,R__R+I__L01,RF_01,"{'max_depth': 8, 'min_samples_leaf': 5}",,
+TRANSFORMER,R,R|I,1,R__R+I__L01,TR_01,"((16, 2, 32), 0.001)",52.0,19|119|219

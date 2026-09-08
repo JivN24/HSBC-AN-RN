@@ -1,5 +1,5 @@
 RUN_ID,target,selected_history_order,AIC,BIC,order_boundary_warning,own_history_classical_support_train,own_history_HAC_support_train,residual_LB5_p,residual_LB10_p,residual_LB20_p,selected_n_test,selected_n_train,selected_n_validation,iv_specification,iv_column,benchmark_only,primary_specification,retained_predictor_blocks
-2026-09-06T14:09:13.466671+00:00,realised_variance_ann_252,1,-10129.591749100204,-10107.268950091306,False,True,False,0.8317010875822906,0.6057938044290764,0.07284552075968363,1182.0,3005.0,1181.0,RAW_IV,iv_ann_var,True,False,
-2026-09-06T14:09:13.466671+00:00,implied_variance_ann,16,-10701.631994322295,-10427.630770292688,False,True,True,0.9365107411513865,0.5715970059571516,0.17809470435837266,1031.0,2099.0,1055.0,RAW_IV,iv_ann_var,True,False,
-2026-09-06T14:09:13.466671+00:00,realised_variance_ann_252,1,,,,,,,,,,,,WEEKDAY_NORM_IV,iv_model_var,False,True,I_to_R
-2026-09-06T14:09:13.466671+00:00,implied_variance_ann,12,,,,,,,,,,,,WEEKDAY_NORM_IV,iv_model_var,False,True,Q_to_I; R_to_I
+2026-09-07T13:12:03.011216+00:00,realised_variance_ann_252,1,-10129.591749100204,-10107.268950091306,False,True,False,0.8317010875822906,0.6057938044290764,0.07284552075968363,1182.0,3005.0,1181.0,RAW_IV,iv_ann_var,True,False,
+2026-09-07T13:12:03.011216+00:00,implied_variance_ann,16,-10701.631994322295,-10427.630770292688,False,True,True,0.9365107411513865,0.5715970059571516,0.17809470435837266,1031.0,2099.0,1055.0,RAW_IV,iv_ann_var,True,False,
+2026-09-07T13:12:03.011216+00:00,realised_variance_ann_252,1,,,,,,,,,,,,WEEKDAY_NORM_IV,iv_model_var,False,True,I_to_R
+2026-09-07T13:12:03.011216+00:00,implied_variance_ann,12,,,,,,,,,,,,WEEKDAY_NORM_IV,iv_model_var,False,True,Q_to_I; R_to_I
