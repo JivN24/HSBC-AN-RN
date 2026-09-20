@@ -1,0 +1,11 @@
+item,value,section
+event_alignment_version,FAMILY_SPECIFIC_LAST_DEFENSIBLE_PRE_ANNOUNCEMENT_IV,API
+model_day_convention,17:00 New York to next 17:00 New York,API
+family_specific_implied_event_mapping,True,API
+implied_timing_contract,FOMC I_D; all other frozen primary families I_(D-1) on the previous observed canonical model-day row,API
+bloomberg_snapshot_time_identified,False,API
+raw_forecasts_preserved,True,API
+admissible_forecast_rule,"max(raw, frozen target floor)",API
+canonical_event_weight,actual / admissible eventless background,API
+linus_equation_5_used,False,API
+ordinary_response_contract,event-unaware admissible ratios with raw diagnostics,API

@@ -1,8 +1,0 @@
-.venv/
-__pycache__/
-*.pyc
-*.egg-info/
-.pytest_cache/
-results/figures/*.png
-results/tables/*.csv
-.ipynb_checkpoints/

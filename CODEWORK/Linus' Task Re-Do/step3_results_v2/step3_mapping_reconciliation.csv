@@ -1,8 +1,0 @@
-event,rows_in_file,before,after,inside_unmapped,mapped,distinct_model_days
-FOMC Rate Decision (Upper Bound),241,52,0,6,183,183
-BOJ Target Rate,221,0,0,11,210,210
-Change in Nonfarm Payrolls,354,77,0,9,268,267
-CPI MoM,353,77,0,9,267,267
-CPI YoY,284,7,0,9,268,268
-Natl CPI YoY,298,20,0,9,269,269
-Tokyo CPI Ex-Fresh Food YoY,298,20,0,8,270,270
